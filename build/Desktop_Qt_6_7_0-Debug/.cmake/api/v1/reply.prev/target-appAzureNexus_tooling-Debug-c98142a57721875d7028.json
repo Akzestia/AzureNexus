@@ -70,19 +70,21 @@
 				2,
 				3,
 				4,
-				5
+				5,
+				6
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				6,
 				7,
 				8,
 				9,
 				10,
-				11
+				11,
+				12,
+				13
 			]
 		}
 	],
@@ -125,6 +127,12 @@
 			"sourceGroupIndex" : 0
 		},
 		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_0-Debug/AzureNexus/RoundImageShader.frag",
+			"sourceGroupIndex" : 0
+		},
+		{
 			"backtrace" : 0,
 			"isGenerated" : true,
 			"path" : "build/Desktop_Qt_6_7_0-Debug/AzureNexus/main.qml.rule",
@@ -158,6 +166,12 @@
 			"backtrace" : 0,
 			"isGenerated" : true,
 			"path" : "build/Desktop_Qt_6_7_0-Debug/AzureNexus/AzureNexus.qrc.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_0-Debug/AzureNexus/RoundImageShader.frag.rule",
 			"sourceGroupIndex" : 1
 		}
 	],

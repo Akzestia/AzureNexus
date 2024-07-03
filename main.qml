@@ -32,7 +32,12 @@ ApplicationWindow {
         Layout.fillWidth: true
         implicitHeight: grid.implicitHeight
         implicitWidth: grid.implicitWidth
-        color: "transparent"
+
+        Image {
+            anchors.fill: parent
+            source: "file:///home/azure/Downloads/hCxW040.jpeg" // Replace with the path to your image
+            fillMode: Image.PreserveAspectCrop // Adjust the fill mode as per your requirement
+        }
 
         GridLayout {
             anchors.fill: parent
@@ -73,13 +78,14 @@ ApplicationWindow {
                 Layout.row: 1
                 Layout.column: 1
                 Layout.columnSpan: receiver_profile.visible ? 1 : 2
-                color: ColorsConfig.backgroundDarker
+                color: ColorsConfig.mainBlueDark
                 radius: 10
                 Layout.preferredWidth: parent.width * .5174
                 Layout.fillWidth: true
                 Layout.topMargin: 4
                 Layout.preferredHeight: mainWindow.height - xuxu.height - 14
                 Layout.alignment: Qt.AlignTop | Qt.AlignCenter
+                opacity: .8
             }
             Rectangle {
                 id: receiver_profile

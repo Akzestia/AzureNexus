@@ -6,6 +6,8 @@ appAzureNexus_autogen/timestamp: \
 	/home/azure/AzureNexus/build/Desktop_Qt_6_7_0-Debug/CMakeFiles/3.29.3/CMakeCXXCompiler.cmake \
 	/home/azure/AzureNexus/build/Desktop_Qt_6_7_0-Debug/CMakeFiles/3.29.3/CMakeSystem.cmake \
 	/home/azure/AzureNexus/build/Desktop_Qt_6_7_0-Debug/appAzureNexus_autogen/moc_predefs.h \
+	/home/azure/AzureNexus/luaconfigmanager.cpp \
+	/home/azure/AzureNexus/luaconfigmanager.h \
 	/home/azure/AzureNexus/main.cpp \
 	/home/azure/AzureNexus/message.cpp \
 	/home/azure/AzureNexus/message.h \

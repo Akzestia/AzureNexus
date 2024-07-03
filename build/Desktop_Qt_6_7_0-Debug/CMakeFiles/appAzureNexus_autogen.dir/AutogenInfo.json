@@ -1086,6 +1086,12 @@
 			null
 		],
 		[
+			"/home/azure/AzureNexus/luaconfigmanager.h",
+			"Mu",
+			"EWIEGA46WW/moc_luaconfigmanager.cpp",
+			null
+		],
+		[
 			"/home/azure/AzureNexus/message.h",
 			"Mu",
 			"EWIEGA46WW/moc_message.cpp",
@@ -1228,6 +1234,7 @@
 	"SETTINGS_FILE" : "/home/azure/AzureNexus/build/Desktop_Qt_6_7_0-Debug/CMakeFiles/appAzureNexus_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[ "/home/azure/AzureNexus/luaconfigmanager.cpp", "Mu", null ],
 		[ "/home/azure/AzureNexus/main.cpp", "Mu", null ],
 		[ "/home/azure/AzureNexus/message.cpp", "Mu", null ],
 		[ "/home/azure/AzureNexus/roundedimage.cpp", "Mu", null ],

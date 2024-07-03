@@ -11,6 +11,7 @@
  * Background_Dark_Gray 34343B
  * Background_Gray B8B8B8
  * Background_White F0F0F0
+ * xxx 19151F
 */
 
 class ColorsConfig : public QObject
