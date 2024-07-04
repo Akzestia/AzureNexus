@@ -5,6 +5,8 @@
     <file alias="SvgButton.qml">/home/azure/AzureNexus/SvgButton.qml</file>
     <file alias="Wayland.qml">/home/azure/AzureNexus/Wayland.qml</file>
     <file alias="Message.qml">/home/azure/AzureNexus/Message.qml</file>
+    <file alias="SignUp.qml">/home/azure/AzureNexus/SignUp.qml</file>
+    <file alias="SignIn.qml">/home/azure/AzureNexus/SignIn.qml</file>
     <file alias="AzureNexus.qrc">/home/azure/AzureNexus/AzureNexus.qrc</file>
     <file alias="RoundImageShader.frag">/home/azure/AzureNexus/RoundImageShader.frag</file>
   </qresource>

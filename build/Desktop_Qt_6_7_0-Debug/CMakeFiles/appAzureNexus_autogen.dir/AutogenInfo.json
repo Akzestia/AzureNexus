@@ -1217,6 +1217,8 @@
 		"/home/azure/AzureNexus/build/Desktop_Qt_6_7_0-Debug/.qt/rcc/qrc_appAzureNexus_raw_qml_0.cpp",
 		"/home/azure/AzureNexus/build/Desktop_Qt_6_7_0-Debug/.qt/rcc/qrc_qmake_AzureNexus.cpp",
 		"/home/azure/AzureNexus/build/Desktop_Qt_6_7_0-Debug/.rcc/qmlcache/appAzureNexus_Message_qml.cpp",
+		"/home/azure/AzureNexus/build/Desktop_Qt_6_7_0-Debug/.rcc/qmlcache/appAzureNexus_SignIn_qml.cpp",
+		"/home/azure/AzureNexus/build/Desktop_Qt_6_7_0-Debug/.rcc/qmlcache/appAzureNexus_SignUp_qml.cpp",
 		"/home/azure/AzureNexus/build/Desktop_Qt_6_7_0-Debug/.rcc/qmlcache/appAzureNexus_SvgButton_qml.cpp",
 		"/home/azure/AzureNexus/build/Desktop_Qt_6_7_0-Debug/.rcc/qmlcache/appAzureNexus_Wayland_qml.cpp",
 		"/home/azure/AzureNexus/build/Desktop_Qt_6_7_0-Debug/.rcc/qmlcache/appAzureNexus_login_qml.cpp",

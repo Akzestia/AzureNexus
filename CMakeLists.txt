@@ -42,6 +42,8 @@ qt_add_qml_module(appAzureNexus
     SOURCES roundedimage.h roundedimage.cpp
     RESOURCES RoundImageShader.frag
     SOURCES luaconfigmanager.h luaconfigmanager.cpp
+    QML_FILES SignUp.qml
+    QML_FILES SignIn.qml
 )
 
 #SOURCES waylandscreencpature.h waylandscreencpature.cpp
@@ -69,6 +71,7 @@ target_link_libraries(appAzureNexus PRIVATE
     absl_log_internal_message
     absl_cord
     absl_cordz_info
+    lua
 )
 
 include(GNUInstallDirs)

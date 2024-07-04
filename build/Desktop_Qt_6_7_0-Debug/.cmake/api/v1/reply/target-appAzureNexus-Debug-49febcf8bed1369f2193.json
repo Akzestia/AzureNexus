@@ -102,13 +102,13 @@
 			{
 				"command" : 4,
 				"file" : 1,
-				"line" : 74,
+				"line" : 78,
 				"parent" : 0
 			},
 			{
 				"command" : 5,
 				"file" : 1,
-				"line" : 59,
+				"line" : 62,
 				"parent" : 0
 			},
 			{
@@ -633,6 +633,30 @@
 				"parent" : 69
 			},
 			{
+				"command" : 24,
+				"file" : 12,
+				"line" : 2531,
+				"parent" : 69
+			},
+			{
+				"command" : 24,
+				"file" : 12,
+				"line" : 2683,
+				"parent" : 69
+			},
+			{
+				"command" : 24,
+				"file" : 12,
+				"line" : 2531,
+				"parent" : 69
+			},
+			{
+				"command" : 24,
+				"file" : 12,
+				"line" : 2683,
+				"parent" : 69
+			},
+			{
 				"command" : 28,
 				"file" : 12,
 				"line" : 2766,
@@ -642,19 +666,19 @@
 				"command" : 27,
 				"file" : 0,
 				"line" : 337,
-				"parent" : 101
+				"parent" : 105
 			},
 			{
 				"command" : 26,
 				"file" : 0,
 				"line" : 2390,
-				"parent" : 102
+				"parent" : 106
 			},
 			{
 				"command" : 24,
 				"file" : 0,
 				"line" : 2004,
-				"parent" : 103
+				"parent" : 107
 			},
 			{
 				"command" : 30,
@@ -666,7 +690,7 @@
 				"command" : 24,
 				"file" : 0,
 				"line" : 2117,
-				"parent" : 105
+				"parent" : 109
 			}
 		]
 	},
@@ -869,12 +893,15 @@
 				17,
 				24,
 				26,
-				27,
+				28,
 				29,
 				31,
 				33,
 				35,
-				36
+				37,
+				39,
+				41,
+				42
 			]
 		}
 	],
@@ -978,6 +1005,11 @@
 				"role" : "libraries"
 			},
 			{
+				"backtrace" : 6,
+				"fragment" : "-llua",
+				"role" : "libraries"
+			},
+			{
 				"backtrace" : 13,
 				"fragment" : "/usr/lib/libwayland-server.so",
 				"role" : "libraries"
@@ -1060,12 +1092,15 @@
 				17,
 				24,
 				26,
-				27,
+				28,
 				29,
 				31,
 				33,
 				35,
-				36
+				37,
+				39,
+				41,
+				42
 			]
 		},
 		{
@@ -1078,29 +1113,31 @@
 				20,
 				21,
 				22,
-				25,
-				28,
+				27,
 				30,
 				32,
 				34,
-				37,
+				36,
 				38,
-				39,
 				40,
-				41,
-				42,
-				55,
-				56,
-				57,
-				58,
-				59,
-				60,
-				61,
-				62,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
 				63,
 				64,
 				65,
-				66
+				66,
+				67,
+				68,
+				69,
+				70,
+				71,
+				72,
+				73,
+				74
 			]
 		},
 		{
@@ -1114,25 +1151,28 @@
 				13,
 				14,
 				16,
-				23
+				23,
+				25
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				43,
-				44,
-				45,
-				46,
-				47,
-				48,
 				49,
 				50,
 				51,
 				52,
 				53,
-				54
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62
 			]
 		}
 	],
@@ -1279,6 +1319,17 @@
 			"sourceGroupIndex" : 0
 		},
 		{
+			"backtrace" : 88,
+			"path" : "luaconfigmanager.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 88,
+			"compileGroupIndex" : 0,
+			"path" : "luaconfigmanager.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
 			"backtrace" : 89,
 			"path" : "main.qml",
 			"sourceGroupIndex" : 1
@@ -1346,37 +1397,61 @@
 			"sourceGroupIndex" : 0
 		},
 		{
+			"backtrace" : 101,
+			"path" : "SignUp.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 102,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_0-Debug/.rcc/qmlcache/appAzureNexus_SignUp_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 103,
+			"path" : "SignIn.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
 			"backtrace" : 104,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_0-Debug/.rcc/qmlcache/appAzureNexus_SignIn_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 108,
 			"compileGroupIndex" : 0,
 			"isGenerated" : true,
 			"path" : "build/Desktop_Qt_6_7_0-Debug/.qt/rcc/qrc_appAzureNexus_raw_qml_0.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 106,
+			"backtrace" : 110,
 			"isGenerated" : true,
 			"path" : "build/Desktop_Qt_6_7_0-Debug/.qt/rcc/qmake_AzureNexus.qrc",
 			"sourceGroupIndex" : 1
 		},
 		{
-			"backtrace" : 106,
+			"backtrace" : 110,
 			"isGenerated" : true,
 			"path" : "build/Desktop_Qt_6_7_0-Debug/AzureNexus/qmldir",
 			"sourceGroupIndex" : 1
 		},
 		{
-			"backtrace" : 106,
+			"backtrace" : 110,
 			"isGenerated" : true,
 			"path" : "build/Desktop_Qt_6_7_0-Debug/.qt/rcc/appAzureNexus_raw_qml_0.qrc",
 			"sourceGroupIndex" : 1
 		},
 		{
-			"backtrace" : 106,
+			"backtrace" : 110,
 			"path" : "AzureNexus.qrc",
 			"sourceGroupIndex" : 1
 		},
 		{
-			"backtrace" : 106,
+			"backtrace" : 110,
 			"path" : "RoundImageShader.frag",
 			"sourceGroupIndex" : 1
 		},
@@ -1438,6 +1513,18 @@
 			"backtrace" : 0,
 			"isGenerated" : true,
 			"path" : "build/Desktop_Qt_6_7_0-Debug/.rcc/qmlcache/appAzureNexus_Message_qml.cpp.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_0-Debug/.rcc/qmlcache/appAzureNexus_SignUp_qml.cpp.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_0-Debug/.rcc/qmlcache/appAzureNexus_SignIn_qml.cpp.rule",
 			"sourceGroupIndex" : 3
 		},
 		{

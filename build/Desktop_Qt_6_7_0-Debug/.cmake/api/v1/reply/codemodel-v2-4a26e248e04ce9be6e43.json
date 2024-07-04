@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-Debug-9880e7488eec622d4e06.json",
+					"jsonFile" : "directory-.-Debug-e3930e3e95221bb50a5e.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16"
@@ -92,7 +92,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "appAzureNexus::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-appAzureNexus-Debug-66f0cf1ef99afe1f9108.json",
+					"jsonFile" : "target-appAzureNexus-Debug-49febcf8bed1369f2193.json",
 					"name" : "appAzureNexus",
 					"projectIndex" : 0
 				},
@@ -148,7 +148,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "appAzureNexus_tooling::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-appAzureNexus_tooling-Debug-c98142a57721875d7028.json",
+					"jsonFile" : "target-appAzureNexus_tooling-Debug-1a60b4c43f59dce22a98.json",
 					"name" : "appAzureNexus_tooling",
 					"projectIndex" : 0
 				}

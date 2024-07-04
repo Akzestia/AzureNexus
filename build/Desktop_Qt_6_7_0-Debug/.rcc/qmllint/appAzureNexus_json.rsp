@@ -12,5 +12,7 @@
 /home/azure/AzureNexus/SvgButton.qml
 /home/azure/AzureNexus/Wayland.qml
 /home/azure/AzureNexus/Message.qml
+/home/azure/AzureNexus/SignUp.qml
+/home/azure/AzureNexus/SignIn.qml
 --json
 /home/azure/AzureNexus/build/Desktop_Qt_6_7_0-Debug/appAzureNexus_qmllint.json

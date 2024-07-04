@@ -102,13 +102,13 @@
 			{
 				"command" : 4,
 				"file" : 1,
-				"line" : 75,
+				"line" : 77,
 				"parent" : 0
 			},
 			{
 				"command" : 5,
 				"file" : 1,
-				"line" : 60,
+				"line" : 61,
 				"parent" : 0
 			},
 			{
@@ -633,6 +633,18 @@
 				"parent" : 69
 			},
 			{
+				"command" : 24,
+				"file" : 12,
+				"line" : 2531,
+				"parent" : 69
+			},
+			{
+				"command" : 24,
+				"file" : 12,
+				"line" : 2683,
+				"parent" : 69
+			},
+			{
 				"command" : 28,
 				"file" : 12,
 				"line" : 2766,
@@ -642,19 +654,19 @@
 				"command" : 27,
 				"file" : 0,
 				"line" : 337,
-				"parent" : 101
+				"parent" : 103
 			},
 			{
 				"command" : 26,
 				"file" : 0,
 				"line" : 2390,
-				"parent" : 102
+				"parent" : 104
 			},
 			{
 				"command" : 24,
 				"file" : 0,
 				"line" : 2004,
-				"parent" : 103
+				"parent" : 105
 			},
 			{
 				"command" : 30,
@@ -666,7 +678,7 @@
 				"command" : 24,
 				"file" : 0,
 				"line" : 2117,
-				"parent" : 105
+				"parent" : 107
 			}
 		]
 	},
@@ -875,7 +887,8 @@
 				33,
 				35,
 				37,
-				38
+				39,
+				40
 			]
 		}
 	],
@@ -979,6 +992,11 @@
 				"role" : "libraries"
 			},
 			{
+				"backtrace" : 6,
+				"fragment" : "-llua",
+				"role" : "libraries"
+			},
+			{
 				"backtrace" : 13,
 				"fragment" : "/usr/lib/libwayland-server.so",
 				"role" : "libraries"
@@ -1067,7 +1085,8 @@
 				33,
 				35,
 				37,
-				38
+				39,
+				40
 			]
 		},
 		{
@@ -1085,15 +1104,13 @@
 				32,
 				34,
 				36,
-				39,
-				40,
+				38,
 				41,
 				42,
 				43,
 				44,
-				57,
-				58,
-				59,
+				45,
+				46,
 				60,
 				61,
 				62,
@@ -1102,7 +1119,10 @@
 				65,
 				66,
 				67,
-				68
+				68,
+				69,
+				70,
+				71
 			]
 		},
 		{
@@ -1124,8 +1144,6 @@
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				45,
-				46,
 				47,
 				48,
 				49,
@@ -1135,7 +1153,10 @@
 				53,
 				54,
 				55,
-				56
+				56,
+				57,
+				58,
+				59
 			]
 		}
 	],
@@ -1360,37 +1381,49 @@
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 104,
+			"backtrace" : 101,
+			"path" : "SignUp.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 102,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_0-Debug/.rcc/qmlcache/appAzureNexus_SignUp_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 106,
 			"compileGroupIndex" : 0,
 			"isGenerated" : true,
 			"path" : "build/Desktop_Qt_6_7_0-Debug/.qt/rcc/qrc_appAzureNexus_raw_qml_0.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 106,
+			"backtrace" : 108,
 			"isGenerated" : true,
 			"path" : "build/Desktop_Qt_6_7_0-Debug/.qt/rcc/qmake_AzureNexus.qrc",
 			"sourceGroupIndex" : 1
 		},
 		{
-			"backtrace" : 106,
+			"backtrace" : 108,
 			"isGenerated" : true,
 			"path" : "build/Desktop_Qt_6_7_0-Debug/AzureNexus/qmldir",
 			"sourceGroupIndex" : 1
 		},
 		{
-			"backtrace" : 106,
+			"backtrace" : 108,
 			"isGenerated" : true,
 			"path" : "build/Desktop_Qt_6_7_0-Debug/.qt/rcc/appAzureNexus_raw_qml_0.qrc",
 			"sourceGroupIndex" : 1
 		},
 		{
-			"backtrace" : 106,
+			"backtrace" : 108,
 			"path" : "AzureNexus.qrc",
 			"sourceGroupIndex" : 1
 		},
 		{
-			"backtrace" : 106,
+			"backtrace" : 108,
 			"path" : "RoundImageShader.frag",
 			"sourceGroupIndex" : 1
 		},
@@ -1452,6 +1485,12 @@
 			"backtrace" : 0,
 			"isGenerated" : true,
 			"path" : "build/Desktop_Qt_6_7_0-Debug/.rcc/qmlcache/appAzureNexus_Message_qml.cpp.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_0-Debug/.rcc/qmlcache/appAzureNexus_SignUp_qml.cpp.rule",
 			"sourceGroupIndex" : 3
 		},
 		{

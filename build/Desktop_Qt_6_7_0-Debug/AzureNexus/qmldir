@@ -4,4 +4,6 @@ prefer :/AzureNexus/
 SvgButton 1.0 SvgButton.qml
 Wayland 1.0 Wayland.qml
 Message 1.0 Message.qml
+SignUp 1.0 SignUp.qml
+SignIn 1.0 SignIn.qml
 
