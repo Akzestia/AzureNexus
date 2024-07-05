@@ -30,7 +30,7 @@ ApplicationWindow {
 
         Text {
             color: "white"
-            text: "Sign in"
+            text: qsTr("Sign in")
             Layout.alignment: Qt.AlignHCenter | Qt.AlignVCenter
             font.pixelSize: 20
             Layout.topMargin: 50
@@ -87,7 +87,7 @@ ApplicationWindow {
             Layout.preferredHeight: 30
             Layout.bottomMargin: -20
             radius: 10
-            color: login_btn_area.containsMouse ? "red" : "white"
+            color: login_btn_area.containsMouse ? "#1A5FAF" : "white"
 
             Behavior on color {
                 ColorAnimation {

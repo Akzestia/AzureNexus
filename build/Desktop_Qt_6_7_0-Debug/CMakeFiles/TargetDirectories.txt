@@ -8,6 +8,11 @@
 /home/azure/AzureNexus/build/Desktop_Qt_6_7_0-Debug/CMakeFiles/all_qmllint_json.dir
 /home/azure/AzureNexus/build/Desktop_Qt_6_7_0-Debug/CMakeFiles/all_qmllint_module.dir
 /home/azure/AzureNexus/build/Desktop_Qt_6_7_0-Debug/CMakeFiles/appAzureNexus_tooling.dir
+/home/azure/AzureNexus/build/Desktop_Qt_6_7_0-Debug/CMakeFiles/AzureNexus_lupdate.dir
+/home/azure/AzureNexus/build/Desktop_Qt_6_7_0-Debug/CMakeFiles/update_translations.dir
+/home/azure/AzureNexus/build/Desktop_Qt_6_7_0-Debug/CMakeFiles/AzureNexus_lrelease.dir
+/home/azure/AzureNexus/build/Desktop_Qt_6_7_0-Debug/CMakeFiles/release_translations.dir
+/home/azure/AzureNexus/build/Desktop_Qt_6_7_0-Debug/CMakeFiles/appAzureNexus_other_files.dir
 /home/azure/AzureNexus/build/Desktop_Qt_6_7_0-Debug/CMakeFiles/appAzureNexus_qmlimportscan.dir
 /home/azure/AzureNexus/build/Desktop_Qt_6_7_0-Debug/CMakeFiles/edit_cache.dir
 /home/azure/AzureNexus/build/Desktop_Qt_6_7_0-Debug/CMakeFiles/rebuild_cache.dir

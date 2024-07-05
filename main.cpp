@@ -2,6 +2,7 @@
 #include <QQmlApplicationEngine>
 #include <QQmlContext>
 #include <QScreen>
+#include <QTranslator>
 #include <QWindow>
 #include "../Documents/GitHub/Linux-x64-HTTP3/client/QuicClient.h"
 #include "ColorsConfig.h"
@@ -11,6 +12,12 @@
 int main(int argc, char *argv[])
 {
     QGuiApplication app(argc, argv);
+
+    QObject::tr("This is a test");
+
+    QTranslator t;
+    t.load("./AzureNexus_ja_JP.ts");
+    app.installTranslator(&t);
 
     // Initialize your QuicClient or any other setup here
     const char *host = "10.10.3.201";

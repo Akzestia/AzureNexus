@@ -3,6 +3,7 @@ import QtQuick.Controls
 import QtQuick.Layouts
 
 ApplicationWindow {
+    id: mainWindow
     width: 400
     height: 520
     minimumWidth: 400
@@ -30,17 +31,38 @@ ApplicationWindow {
 
         Text {
             color: "white"
-            text: "Sign in"
+            text: "Sign up"
             Layout.alignment: Qt.AlignHCenter | Qt.AlignVCenter
             font.pixelSize: 20
             Layout.topMargin: 50
         }
 
         TextField {
-            id: user_name_email
+            id: user_name
             Layout.preferredWidth: parent.width * .8
             Layout.preferredHeight: 35
             placeholderText: qsTr("Username")
+            placeholderTextColor: "aqua"
+            color: "Magenta"
+            maximumLength: 50
+
+            leftPadding: 20
+            rightPadding: 20
+
+            background: Rectangle {
+                anchors.fill: parent
+                radius: 10
+                color: "transparent"
+            }
+
+            Layout.alignment: Qt.AlignHCenter | Qt.AlignVCenter
+        }
+
+        TextField {
+            id: user_email
+            Layout.preferredWidth: parent.width * .8
+            Layout.preferredHeight: 35
+            placeholderText: qsTr("Email")
             placeholderTextColor: "aqua"
             color: "Magenta"
             maximumLength: 50
@@ -85,9 +107,10 @@ ApplicationWindow {
             Layout.preferredWidth: parent.width * .8
             Layout.alignment: Qt.AlignHCenter | Qt.AlignVCenter
             Layout.preferredHeight: 30
+            Layout.topMargin: 20
             Layout.bottomMargin: -20
             radius: 10
-            color: login_btn_area.containsMouse ? "red" : "white"
+            color: login_btn_area.containsMouse ? "#1A5FAF" : "white"
 
             Behavior on color {
                 ColorAnimation {
@@ -96,7 +119,7 @@ ApplicationWindow {
             }
 
             Text {
-                text: "Sign in"
+                text: "Sign up"
                 anchors.horizontalCenter: parent.horizontalCenter
                 anchors.verticalCenter: parent.verticalCenter
             }

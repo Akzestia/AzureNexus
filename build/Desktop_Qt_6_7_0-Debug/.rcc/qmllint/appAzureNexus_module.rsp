@@ -6,5 +6,7 @@
 /home/azure/AzureNexus/build/Desktop_Qt_6_7_0-Debug/.qt/rcc/qmake_AzureNexus.qrc
 --resource
 /home/azure/AzureNexus/build/Desktop_Qt_6_7_0-Debug/.qt/rcc/appAzureNexus_raw_qml_0.qrc
+--resource
+/home/azure/AzureNexus/build/Desktop_Qt_6_7_0-Debug/.qt/rcc/appAzureNexus_translations.qrc
 --module
 AzureNexus

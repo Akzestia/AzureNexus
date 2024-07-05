@@ -540,6 +540,15 @@ appAzureNexus_autogen/timestamp: \
 	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets-relwithdebinfo.cmake \
 	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets.cmake \
 	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsVersionlessTargets.cmake \
+	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsAdditionalTargetInfo.cmake \
+	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsConfig.cmake \
+	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsConfigVersion.cmake \
+	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsConfigVersionImpl.cmake \
+	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsDependencies.cmake \
+	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake \
+	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsTargets-relwithdebinfo.cmake \
+	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsTargets.cmake \
+	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsVersionlessTargets.cmake \
 	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6MultimediaAdditionalTargetInfo.cmake \
 	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6MultimediaConfig.cmake \
 	/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Multimedia/Qt6MultimediaConfigVersion.cmake \
@@ -1031,6 +1040,7 @@ appAzureNexus_autogen/timestamp: \
 	/home/azure/Qt/Tools/CMake/share/cmake-3.29/Modules/CMakeGenericSystem.cmake \
 	/home/azure/Qt/Tools/CMake/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake \
 	/home/azure/Qt/Tools/CMake/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake \
+	/home/azure/Qt/Tools/CMake/share/cmake-3.29/Modules/CMakeParseArguments.cmake \
 	/home/azure/Qt/Tools/CMake/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake \
 	/home/azure/Qt/Tools/CMake/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake \
 	/home/azure/Qt/Tools/CMake/share/cmake-3.29/Modules/CheckCXXCompilerFlag.cmake \

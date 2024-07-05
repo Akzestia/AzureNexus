@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/i18n">
+    <file alias="AzureNexus_ja_JP.qm">/home/azure/AzureNexus/build/Desktop_Qt_6_7_0-Debug/AzureNexus_ja_JP.qm</file>
+  </qresource>
+</RCC>
+

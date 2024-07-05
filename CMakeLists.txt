@@ -10,11 +10,13 @@ find_package(Qt6 REQUIRED COMPONENTS Widgets Multimedia)
 find_package(Qt6 REQUIRED COMPONENTS Widgets)
 find_package(Qt6 REQUIRED COMPONENTS WaylandCompositor)
 find_package(Qt6 REQUIRED COMPONENTS Svg)
-
+find_package(Qt6 REQUIRED COMPONENTS LinguistTools)
 
 qt_add_executable(appAzureNexus
     main.cpp
 )
+
+qt_add_translations(appAzureNexus TS_FILES AzureNexus_ja_JP.ts)
 
 qt_add_qml_module(appAzureNexus
     URI AzureNexus

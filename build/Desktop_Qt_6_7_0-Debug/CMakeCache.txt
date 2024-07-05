@@ -356,6 +356,9 @@ Qt6GuiTools_DIR:PATH=/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6GuiTools
 //The directory containing a CMake configuration file for Qt6Gui.
 Qt6Gui_DIR:PATH=/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Gui
 
+//The directory containing a CMake configuration file for Qt6LinguistTools.
+Qt6LinguistTools_DIR:PATH=/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6LinguistTools
+
 //The directory containing a CMake configuration file for Qt6Multimedia.
 Qt6Multimedia_DIR:PATH=/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Multimedia
 
@@ -1813,6 +1816,7 @@ Wayland_Server_LIBRARY-ADVANCED:INTERNAL=1
 _CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED:INTERNAL=TRUE
 //CMAKE_INSTALL_PREFIX during last run
 _GNUInstallDirs_LAST_CMAKE_INSTALL_PREFIX:INTERNAL=/usr/local
+_Qt6_LINGUIST_TOOLS_DIR:INTERNAL=/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6LinguistTools
 __pkg_config_arguments_PKG_Wayland_Client:INTERNAL=QUIET;wayland-client
 __pkg_config_arguments_PKG_Wayland_Cursor:INTERNAL=QUIET;wayland-cursor
 __pkg_config_arguments_PKG_Wayland_Egl:INTERNAL=QUIET;wayland-egl
