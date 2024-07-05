@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-Debug-7d6f30397c3fcf78fe7c.json",
+					"jsonFile" : "directory-.-Debug-a6863fa0c9c2ccd67c8c.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16"
@@ -33,8 +33,7 @@
 						14,
 						15,
 						16,
-						17,
-						18
+						17
 					]
 				}
 			],
@@ -66,8 +65,7 @@
 						14,
 						15,
 						16,
-						17,
-						18
+						17
 					]
 				}
 			],
@@ -83,49 +81,42 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "AzureNexus_lupdate::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-AzureNexus_lupdate-Debug-f6d5e6ec96426d946b19.json",
+					"jsonFile" : "target-AzureNexus_lupdate-Debug-37bc8b67ae56f9ab2036.json",
 					"name" : "AzureNexus_lupdate",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
-					"id" : "AzureNexus_lupdate1::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-AzureNexus_lupdate1-Debug-657c8ef1e7bc7c11e2ff.json",
-					"name" : "AzureNexus_lupdate1",
-					"projectIndex" : 0
-				},
-				{
-					"directoryIndex" : 0,
 					"id" : "all_qmllint::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-all_qmllint-Debug-82b423af2209998ce25d.json",
+					"jsonFile" : "target-all_qmllint-Debug-dc811bd34bec6cc0d65e.json",
 					"name" : "all_qmllint",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "all_qmllint_json::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-all_qmllint_json-Debug-fc898484ff8471796b72.json",
+					"jsonFile" : "target-all_qmllint_json-Debug-9299b3aaa191517a3110.json",
 					"name" : "all_qmllint_json",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "all_qmllint_module::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-all_qmllint_module-Debug-97675fd2f72d04407e5d.json",
+					"jsonFile" : "target-all_qmllint_module-Debug-c4ef6e17322683e56b49.json",
 					"name" : "all_qmllint_module",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "all_qmltyperegistrations::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-all_qmltyperegistrations-Debug-1552e0186693baccd342.json",
+					"jsonFile" : "target-all_qmltyperegistrations-Debug-15639117910f63d846ad.json",
 					"name" : "all_qmltyperegistrations",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "appAzureNexus::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-appAzureNexus-Debug-9ae6045eeed04f304438.json",
+					"jsonFile" : "target-appAzureNexus-Debug-593a2db63f7eec7ce142.json",
 					"name" : "appAzureNexus",
 					"projectIndex" : 0
 				},
@@ -160,35 +151,35 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "appAzureNexus_qmllint::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-appAzureNexus_qmllint-Debug-b201ca840242f979c643.json",
+					"jsonFile" : "target-appAzureNexus_qmllint-Debug-84afe1d0565b64381ea5.json",
 					"name" : "appAzureNexus_qmllint",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "appAzureNexus_qmllint_json::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-appAzureNexus_qmllint_json-Debug-48f61e024d0259ca4bbb.json",
+					"jsonFile" : "target-appAzureNexus_qmllint_json-Debug-db19ef80628501ca7ff7.json",
 					"name" : "appAzureNexus_qmllint_json",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "appAzureNexus_qmllint_module::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-appAzureNexus_qmllint_module-Debug-df03d0b86f417e2458f0.json",
+					"jsonFile" : "target-appAzureNexus_qmllint_module-Debug-aa0832b85e0b05bd7864.json",
 					"name" : "appAzureNexus_qmllint_module",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "appAzureNexus_qmltyperegistration::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-appAzureNexus_qmltyperegistration-Debug-db8a710b102ec863933d.json",
+					"jsonFile" : "target-appAzureNexus_qmltyperegistration-Debug-486b8b4f3442d8451120.json",
 					"name" : "appAzureNexus_qmltyperegistration",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "appAzureNexus_tooling::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-appAzureNexus_tooling-Debug-706900821ca9b6e93fcd.json",
+					"jsonFile" : "target-appAzureNexus_tooling-Debug-d742a73d62b0cad9e298.json",
 					"name" : "appAzureNexus_tooling",
 					"projectIndex" : 0
 				},
@@ -202,7 +193,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "update_translations::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-update_translations-Debug-6ede4762ab38f9792c0f.json",
+					"jsonFile" : "target-update_translations-Debug-402c3a94d3af51748d60.json",
 					"name" : "update_translations",
 					"projectIndex" : 0
 				}

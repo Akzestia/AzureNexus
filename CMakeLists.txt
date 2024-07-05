@@ -46,6 +46,7 @@ qt_add_qml_module(appAzureNexus
     SOURCES luaconfigmanager.h luaconfigmanager.cpp
     QML_FILES SignUp.qml
     QML_FILES SignIn.qml
+    SOURCES ../Documents/GitHub/Linux-x64-HTTP3/client/clientRequestManager/RequestManager.cpp ../Documents/GitHub/Linux-x64-HTTP3/client/clientRequestManager/RequestManager.h
 )
 
 #SOURCES waylandscreencpature.h waylandscreencpature.cpp

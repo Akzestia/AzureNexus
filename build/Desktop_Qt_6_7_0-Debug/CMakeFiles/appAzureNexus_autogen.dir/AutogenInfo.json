@@ -1168,6 +1168,12 @@
 			"Mu",
 			"BWCFGYOW3N/moc_QuicClient.cpp",
 			null
+		],
+		[
+			"/home/azure/Documents/GitHub/Linux-x64-HTTP3/client/clientRequestManager/RequestManager.h",
+			"Mu",
+			"Q3GRS2XXFF/moc_RequestManager.cpp",
+			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
@@ -1283,6 +1289,11 @@
 		[ "/home/azure/AzureNexus/voicecapture.cpp", "Mu", null ],
 		[
 			"/home/azure/Documents/GitHub/Linux-x64-HTTP3/client/QuicClient.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/azure/Documents/GitHub/Linux-x64-HTTP3/client/clientRequestManager/RequestManager.cpp",
 			"Mu",
 			null
 		]

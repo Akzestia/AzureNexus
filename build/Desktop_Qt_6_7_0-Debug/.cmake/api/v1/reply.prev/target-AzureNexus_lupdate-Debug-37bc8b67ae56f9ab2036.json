@@ -5,48 +5,47 @@
 		"commands" : 
 		[
 			"add_custom_target",
-			"_qt_internal_qml_type_registration",
-			"qt6_add_qml_module",
-			"qt_add_qml_module"
+			"qt6_add_lupdate",
+			"qt6_add_translations"
 		],
 		"files" : 
 		[
-			"/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6Qml/Qt6QmlMacros.cmake",
+			"/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake",
+			"/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake:689:EVAL",
 			"CMakeLists.txt"
 		],
 		"nodes" : 
 		[
 			{
-				"file" : 1
+				"file" : 2
 			},
 			{
-				"command" : 3,
-				"file" : 1,
-				"line" : 22,
+				"file" : 2,
+				"line" : -1,
 				"parent" : 0
 			},
 			{
 				"command" : 2,
-				"file" : 0,
-				"line" : 776,
+				"file" : 1,
+				"line" : 1,
 				"parent" : 1
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 541,
+				"line" : 700,
 				"parent" : 2
 			},
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 3035,
+				"line" : 323,
 				"parent" : 3
 			}
 		]
 	},
-	"id" : "appAzureNexus_qmltyperegistration::@6890427a1f51a3e7e1df",
-	"name" : "appAzureNexus_qmltyperegistration",
+	"id" : "AzureNexus_lupdate::@6890427a1f51a3e7e1df",
+	"name" : "AzureNexus_lupdate",
 	"paths" : 
 	{
 		"build" : ".",
@@ -65,8 +64,7 @@
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				1,
-				2
+				1
 			]
 		}
 	],
@@ -75,19 +73,13 @@
 		{
 			"backtrace" : 4,
 			"isGenerated" : true,
-			"path" : "build/Desktop_Qt_6_7_0-Debug/CMakeFiles/appAzureNexus_qmltyperegistration",
+			"path" : "build/Desktop_Qt_6_7_0-Debug/CMakeFiles/AzureNexus_lupdate",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "build/Desktop_Qt_6_7_0-Debug/CMakeFiles/appAzureNexus_qmltyperegistration.rule",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 0,
-			"isGenerated" : true,
-			"path" : "build/Desktop_Qt_6_7_0-Debug/appazurenexus_qmltyperegistrations.cpp.rule",
+			"path" : "build/Desktop_Qt_6_7_0-Debug/CMakeFiles/AzureNexus_lupdate.rule",
 			"sourceGroupIndex" : 1
 		}
 	],
