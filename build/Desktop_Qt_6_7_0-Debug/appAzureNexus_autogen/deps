@@ -36,6 +36,7 @@ appAzureNexus_autogen/timestamp: \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/QObject \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/QPointF \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/QRect \
+	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/QRectF \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/QScopedPointer \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/QSize \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/QSizeF \
@@ -192,6 +193,7 @@ appAzureNexus_autogen/timestamp: \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/qyieldcpu.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtGui/QColor \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtGui/QImage \
+	/home/azure/Qt/6.7.1/gcc_64/include/QtGui/QMatrix4x4 \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtGui/QPainter \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtGui/QPainterPath \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtGui/QPixmap \
@@ -210,6 +212,7 @@ appAzureNexus_autogen/timestamp: \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtGui/qfont.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtGui/qfontinfo.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtGui/qfontmetrics.h \
+	/home/azure/Qt/6.7.1/gcc_64/include/QtGui/qgenericmatrix.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtGui/qguiapplication.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtGui/qguiapplication_platform.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtGui/qicon.h \
@@ -217,6 +220,7 @@ appAzureNexus_autogen/timestamp: \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtGui/qinputdevice.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtGui/qinputmethod.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtGui/qkeysequence.h \
+	/home/azure/Qt/6.7.1/gcc_64/include/QtGui/qmatrix4x4.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtGui/qpaintdevice.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtGui/qpainter.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtGui/qpainterpath.h \
@@ -226,6 +230,7 @@ appAzureNexus_autogen/timestamp: \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtGui/qpixmap.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtGui/qpointingdevice.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtGui/qpolygon.h \
+	/home/azure/Qt/6.7.1/gcc_64/include/QtGui/qquaternion.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtGui/qregion.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtGui/qrgb.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtGui/qrgba64.h \
@@ -239,6 +244,8 @@ appAzureNexus_autogen/timestamp: \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtGui/qtguiglobal.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtGui/qtransform.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtGui/qvector2d.h \
+	/home/azure/Qt/6.7.1/gcc_64/include/QtGui/qvector3d.h \
+	/home/azure/Qt/6.7.1/gcc_64/include/QtGui/qvector4d.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtGui/qvectornd.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtGui/qwindow.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtGui/qwindowdefs.h \
@@ -284,6 +291,7 @@ appAzureNexus_autogen/timestamp: \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtQml/qqmldebug.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtQml/qqmlengine.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtQml/qqmlerror.h \
+	/home/azure/Qt/6.7.1/gcc_64/include/QtQml/qqmlinfo.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtQml/qqmllist.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtQml/qqmlparserstatus.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtQml/qqmlprivate.h \
@@ -294,8 +302,13 @@ appAzureNexus_autogen/timestamp: \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtQml/qtqmlglobal.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtQmlIntegration/qqmlintegration.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtQuick/QQuickPaintedItem \
+	/home/azure/Qt/6.7.1/gcc_64/include/QtQuick/QQuickWindow \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtQuick/qquickitem.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtQuick/qquickpainteditem.h \
+	/home/azure/Qt/6.7.1/gcc_64/include/QtQuick/qquickwindow.h \
+	/home/azure/Qt/6.7.1/gcc_64/include/QtQuick/qsggeometry.h \
+	/home/azure/Qt/6.7.1/gcc_64/include/QtQuick/qsgnode.h \
+	/home/azure/Qt/6.7.1/gcc_64/include/QtQuick/qsgrendererinterface.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtQuick/qtquick-config.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtQuick/qtquickexports.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtQuick/qtquickglobal.h \
@@ -1334,6 +1347,7 @@ appAzureNexus_autogen/timestamp: \
 	/usr/include/unistd.h \
 	/usr/include/wchar.h \
 	/usr/lib/clang/17/include/__stddef_max_align_t.h \
+	/usr/lib/clang/17/include/float.h \
 	/usr/lib/clang/17/include/stdarg.h \
 	/usr/lib/clang/17/include/stdbool.h \
 	/usr/lib/clang/17/include/stddef.h \

@@ -121,6 +121,10 @@ ApplicationWindow {
                 hoverEnabled: true
                 id: t_signup_am
                 anchors.fill: parent
+
+                onClicked: {
+                    sp.startSignUpProcess()
+                }
             }
         }
     }

@@ -1,7 +1,14 @@
 /home/azure/AzureNexus/build/Desktop_Qt_6_7_0-Debug/appAzureNexus_autogen/EWIEGA46WW/moc_splashscreen.cpp: /home/azure/AzureNexus/splashscreen.h \
   /home/azure/AzureNexus/build/Desktop_Qt_6_7_0-Debug/appAzureNexus_autogen/moc_predefs.h \
   /home/azure/Qt/6.7.1/gcc_64/include/QtCore/QDebug \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtCore/QEvent \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtCore/QList \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtCore/QMargins \
   /home/azure/Qt/6.7.1/gcc_64/include/QtCore/QObject \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtCore/QRect \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtCore/QRectF \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtCore/QSize \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtCore/QSizeF \
   /home/azure/Qt/6.7.1/gcc_64/include/QtCore/QTimer \
   /home/azure/Qt/6.7.1/gcc_64/include/QtCore/q20functional.h \
   /home/azure/Qt/6.7.1/gcc_64/include/QtCore/q20memory.h \
@@ -34,10 +41,16 @@
   /home/azure/Qt/6.7.1/gcc_64/include/QtCore/qcontainerinfo.h \
   /home/azure/Qt/6.7.1/gcc_64/include/QtCore/qcontainertools_impl.h \
   /home/azure/Qt/6.7.1/gcc_64/include/QtCore/qcontiguouscache.h \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtCore/qcoreapplication.h \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtCore/qcoreapplication_platform.h \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtCore/qcoreevent.h \
   /home/azure/Qt/6.7.1/gcc_64/include/QtCore/qdarwinhelpers.h \
   /home/azure/Qt/6.7.1/gcc_64/include/QtCore/qdatastream.h \
   /home/azure/Qt/6.7.1/gcc_64/include/QtCore/qdatetime.h \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtCore/qdeadlinetimer.h \
   /home/azure/Qt/6.7.1/gcc_64/include/QtCore/qdebug.h \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtCore/qelapsedtimer.h \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtCore/qeventloop.h \
   /home/azure/Qt/6.7.1/gcc_64/include/QtCore/qexceptionhandling.h \
   /home/azure/Qt/6.7.1/gcc_64/include/QtCore/qflags.h \
   /home/azure/Qt/6.7.1/gcc_64/include/QtCore/qfloat16.h \
@@ -49,21 +62,25 @@
   /home/azure/Qt/6.7.1/gcc_64/include/QtCore/qglobalstatic.h \
   /home/azure/Qt/6.7.1/gcc_64/include/QtCore/qhash.h \
   /home/azure/Qt/6.7.1/gcc_64/include/QtCore/qhashfunctions.h \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtCore/qiodevice.h \
   /home/azure/Qt/6.7.1/gcc_64/include/QtCore/qiodevicebase.h \
   /home/azure/Qt/6.7.1/gcc_64/include/QtCore/qiterable.h \
   /home/azure/Qt/6.7.1/gcc_64/include/QtCore/qiterator.h \
   /home/azure/Qt/6.7.1/gcc_64/include/QtCore/qlatin1stringview.h \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtCore/qline.h \
   /home/azure/Qt/6.7.1/gcc_64/include/QtCore/qlist.h \
   /home/azure/Qt/6.7.1/gcc_64/include/QtCore/qlocale.h \
   /home/azure/Qt/6.7.1/gcc_64/include/QtCore/qlogging.h \
   /home/azure/Qt/6.7.1/gcc_64/include/QtCore/qmalloc.h \
   /home/azure/Qt/6.7.1/gcc_64/include/QtCore/qmap.h \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtCore/qmargins.h \
   /home/azure/Qt/6.7.1/gcc_64/include/QtCore/qmath.h \
   /home/azure/Qt/6.7.1/gcc_64/include/QtCore/qmetacontainer.h \
   /home/azure/Qt/6.7.1/gcc_64/include/QtCore/qmetaobject.h \
   /home/azure/Qt/6.7.1/gcc_64/include/QtCore/qmetatype.h \
   /home/azure/Qt/6.7.1/gcc_64/include/QtCore/qminmax.h \
   /home/azure/Qt/6.7.1/gcc_64/include/QtCore/qnamespace.h \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtCore/qnativeinterface.h \
   /home/azure/Qt/6.7.1/gcc_64/include/QtCore/qnumeric.h \
   /home/azure/Qt/6.7.1/gcc_64/include/QtCore/qobject.h \
   /home/azure/Qt/6.7.1/gcc_64/include/QtCore/qobject_impl.h \
@@ -71,8 +88,10 @@
   /home/azure/Qt/6.7.1/gcc_64/include/QtCore/qobjectdefs_impl.h \
   /home/azure/Qt/6.7.1/gcc_64/include/QtCore/qoverload.h \
   /home/azure/Qt/6.7.1/gcc_64/include/QtCore/qpair.h \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtCore/qpoint.h \
   /home/azure/Qt/6.7.1/gcc_64/include/QtCore/qpointer.h \
   /home/azure/Qt/6.7.1/gcc_64/include/QtCore/qprocessordetection.h \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtCore/qrect.h \
   /home/azure/Qt/6.7.1/gcc_64/include/QtCore/qrefcount.h \
   /home/azure/Qt/6.7.1/gcc_64/include/QtCore/qscopedpointer.h \
   /home/azure/Qt/6.7.1/gcc_64/include/QtCore/qscopeguard.h \
@@ -81,6 +100,7 @@
   /home/azure/Qt/6.7.1/gcc_64/include/QtCore/qshareddata_impl.h \
   /home/azure/Qt/6.7.1/gcc_64/include/QtCore/qsharedpointer.h \
   /home/azure/Qt/6.7.1/gcc_64/include/QtCore/qsharedpointer_impl.h \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtCore/qsize.h \
   /home/azure/Qt/6.7.1/gcc_64/include/QtCore/qstring.h \
   /home/azure/Qt/6.7.1/gcc_64/include/QtCore/qstringalgorithms.h \
   /home/azure/Qt/6.7.1/gcc_64/include/QtCore/qstringbuilder.h \
@@ -125,6 +145,45 @@
   /home/azure/Qt/6.7.1/gcc_64/include/QtCore/qversiontagging.h \
   /home/azure/Qt/6.7.1/gcc_64/include/QtCore/qxptype_traits.h \
   /home/azure/Qt/6.7.1/gcc_64/include/QtCore/qyieldcpu.h \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtGui/QMatrix4x4 \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtGui/QTransform \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtGui/qbitmap.h \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtGui/qcolor.h \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtGui/qcursor.h \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtGui/qevent.h \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtGui/qeventpoint.h \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtGui/qgenericmatrix.h \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtGui/qguiapplication.h \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtGui/qguiapplication_platform.h \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtGui/qicon.h \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtGui/qimage.h \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtGui/qinputdevice.h \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtGui/qinputmethod.h \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtGui/qkeysequence.h \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtGui/qmatrix4x4.h \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtGui/qpaintdevice.h \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtGui/qpixelformat.h \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtGui/qpixmap.h \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtGui/qpointingdevice.h \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtGui/qpolygon.h \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtGui/qquaternion.h \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtGui/qregion.h \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtGui/qrgb.h \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtGui/qrgba64.h \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtGui/qscreen.h \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtGui/qscreen_platform.h \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtGui/qsurface.h \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtGui/qsurfaceformat.h \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtGui/qtgui-config.h \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtGui/qtguiexports.h \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtGui/qtguiglobal.h \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtGui/qtransform.h \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtGui/qvector2d.h \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtGui/qvector3d.h \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtGui/qvector4d.h \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtGui/qvectornd.h \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtGui/qwindow.h \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtGui/qwindowdefs.h \
   /home/azure/Qt/6.7.1/gcc_64/include/QtNetwork/qtnetwork-config.h \
   /home/azure/Qt/6.7.1/gcc_64/include/QtNetwork/qtnetworkexports.h \
   /home/azure/Qt/6.7.1/gcc_64/include/QtNetwork/qtnetworkglobal.h \
@@ -142,6 +201,7 @@
   /home/azure/Qt/6.7.1/gcc_64/include/QtQml/qqmldebug.h \
   /home/azure/Qt/6.7.1/gcc_64/include/QtQml/qqmlengine.h \
   /home/azure/Qt/6.7.1/gcc_64/include/QtQml/qqmlerror.h \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtQml/qqmlinfo.h \
   /home/azure/Qt/6.7.1/gcc_64/include/QtQml/qqmllist.h \
   /home/azure/Qt/6.7.1/gcc_64/include/QtQml/qqmlparserstatus.h \
   /home/azure/Qt/6.7.1/gcc_64/include/QtQml/qqmlprivate.h \
@@ -151,6 +211,14 @@
   /home/azure/Qt/6.7.1/gcc_64/include/QtQml/qtqmlexports.h \
   /home/azure/Qt/6.7.1/gcc_64/include/QtQml/qtqmlglobal.h \
   /home/azure/Qt/6.7.1/gcc_64/include/QtQmlIntegration/qqmlintegration.h \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtQuick/QQuickWindow \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtQuick/qquickwindow.h \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtQuick/qsggeometry.h \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtQuick/qsgnode.h \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtQuick/qsgrendererinterface.h \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtQuick/qtquick-config.h \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtQuick/qtquickexports.h \
+  /home/azure/Qt/6.7.1/gcc_64/include/QtQuick/qtquickglobal.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \
@@ -409,6 +477,7 @@
   /usr/include/time.h \
   /usr/include/wchar.h \
   /usr/lib/clang/17/include/__stddef_max_align_t.h \
+  /usr/lib/clang/17/include/float.h \
   /usr/lib/clang/17/include/stdarg.h \
   /usr/lib/clang/17/include/stdbool.h \
   /usr/lib/clang/17/include/stddef.h

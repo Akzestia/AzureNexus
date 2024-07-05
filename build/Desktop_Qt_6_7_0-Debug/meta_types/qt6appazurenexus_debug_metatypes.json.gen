@@ -193,6 +193,16 @@
                         "access": "public",
                         "name": "startLoginProcess",
                         "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "startSignUpProcess",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "startSignInProcess",
+                        "returnType": "void"
                     }
                 ],
                 "object": true,

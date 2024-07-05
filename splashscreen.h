@@ -5,6 +5,7 @@
 #include <QObject>
 #include <QQmlApplicationEngine>
 #include <QQmlContext>
+#include <QQuickWindow>
 #include <QTimer>
 
 class SplashScreen : public QObject
@@ -14,6 +15,10 @@ public:
     explicit SplashScreen(QQmlApplicationEngine *engine, QObject *parent = nullptr);
 
     Q_INVOKABLE void startLoginProcess();
+
+    Q_INVOKABLE void startSignUpProcess();
+
+    Q_INVOKABLE void startSignInProcess();
 
 private:
     QQmlApplicationEngine *m_engine;
