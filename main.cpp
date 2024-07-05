@@ -43,7 +43,7 @@ int main(int argc, char *argv[])
     engine.rootContext()->setContextProperty("svgImagePath", svgImagePath);
 
     // Load the main QML file
-    const QUrl url(QStringLiteral("qrc:/AzureNexus/login.qml"));
+    const QUrl url(QStringLiteral("qrc:/AzureNexus/SignIn.qml"));
     QObject::connect(
         &engine,
         &QQmlApplicationEngine::objectCreated,

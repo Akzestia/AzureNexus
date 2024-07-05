@@ -2,4 +2,7 @@ import QtQuick
 import QtQuick.Controls
 import QtQuick.Layouts
 
-Item {}
+ApplicationWindow {
+    width: 200
+    height: 480
+}
