@@ -12,6 +12,8 @@ find_package(Qt6 REQUIRED COMPONENTS WaylandCompositor)
 find_package(Qt6 REQUIRED COMPONENTS Svg)
 find_package(Qt6 REQUIRED COMPONENTS LinguistTools)
 
+add_subdirectory(abseil-cpp)
+
 qt_add_executable(appAzureNexus
     main.cpp
 )
@@ -47,6 +49,11 @@ qt_add_qml_module(appAzureNexus
     QML_FILES SignUp.qml
     QML_FILES SignIn.qml
     SOURCES ../Documents/GitHub/Linux-x64-HTTP3/client/clientRequestManager/RequestManager.cpp ../Documents/GitHub/Linux-x64-HTTP3/client/clientRequestManager/RequestManager.h
+    SOURCES ../Documents/GitHub/Linux-x64-HTTP3/db/DbManager.cpp ../Documents/GitHub/Linux-x64-HTTP3/db/DbManager.h
+    SOURCES ../Documents/GitHub/Linux-x64-HTTP3/client/clientRequestManager/RequestManager.cpp ../Documents/GitHub/Linux-x64-HTTP3/client/clientRequestManager/RequestManager.h
+    SOURCES ../Documents/GitHub/Linux-x64-HTTP3/proto/build/auth.pb.cc ../Documents/GitHub/Linux-x64-HTTP3/proto/build/user.pb.cc
+    SOURCES ../Documents/GitHub/Linux-x64-HTTP3/proto/build/auth.pb.h ../Documents/GitHub/Linux-x64-HTTP3/proto/build/user.pb.h
+    SOURCES ../Documents/GitHub/Linux-x64-HTTP3/proto/build/sign_in.pb.cc ../Documents/GitHub/Linux-x64-HTTP3/proto/build/sign_in.pb.h ../Documents/GitHub/Linux-x64-HTTP3/proto/build/sign_up.pb.cc ../Documents/GitHub/Linux-x64-HTTP3/proto/build/sign_up.pb.h
 )
 
 #SOURCES waylandscreencpature.h waylandscreencpature.cpp
@@ -55,7 +62,7 @@ qt_add_qml_module(appAzureNexus
 # If you are developing for iOS or macOS you should consider setting an
 # explicit, fixed bundle identifier manually though.
 set_target_properties(appAzureNexus PROPERTIES
-#    MACOSX_BUNDLE_GUI_IDENTIFIER com.example.appAzureNexus
+    MACOSX_BUNDLE_GUI_IDENTIFIER com.example.appAzureNexus
     MACOSX_BUNDLE_BUNDLE_VERSION ${PROJECT_VERSION}
     MACOSX_BUNDLE_SHORT_VERSION_STRING ${PROJECT_VERSION_MAJOR}.${PROJECT_VERSION_MINOR}
     MACOSX_BUNDLE TRUE
@@ -69,12 +76,14 @@ target_link_libraries(appAzureNexus PRIVATE
     Qt6::WaylandCompositor
     Qt6::Svg
     ${CMAKE_CURRENT_SOURCE_DIR}/appAzureNexus/MsQuic/bin/libmsquic.so
-    protobuf
     absl_log_internal_check_op
     absl_log_internal_message
     absl_cord
-    absl_cordz_info
+    absl_log_entry
+    absl_log_flags
+    protobuf
     lua
+    pqxx
 )
 
 include(GNUInstallDirs)

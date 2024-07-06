@@ -1,0 +1,5 @@
+absl_log_internal_format_autogen/timestamp: \
+	/home/azure/AzureNexus/abseil-cpp/absl/log/CMakeLists.txt \
+	/home/azure/AzureNexus/abseil-cpp/absl/log/internal/log_format.cc \
+	/home/azure/AzureNexus/abseil-cpp/absl/log/internal/log_format.h \
+	/home/azure/Qt/Tools/CMake/bin/cmake

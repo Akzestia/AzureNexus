@@ -1,0 +1,42 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"abseil-cpp/absl/strings/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 0,
+			"id" : "absl_cordz_handle::@a4cc995c3473953680d9"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "absl_cordz_info::@a4cc995c3473953680d9"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "Abseil/internal"
+	},
+	"id" : "absl_cordz_sample_token_autogen_timestamp_deps::@a4cc995c3473953680d9",
+	"isGeneratorProvided" : true,
+	"name" : "absl_cordz_sample_token_autogen_timestamp_deps",
+	"paths" : 
+	{
+		"build" : "abseil-cpp/absl/strings",
+		"source" : "abseil-cpp/absl/strings"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

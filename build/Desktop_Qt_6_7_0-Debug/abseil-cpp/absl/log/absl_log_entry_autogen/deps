@@ -1,0 +1,5 @@
+absl_log_entry_autogen/timestamp: \
+	/home/azure/AzureNexus/abseil-cpp/absl/log/CMakeLists.txt \
+	/home/azure/AzureNexus/abseil-cpp/absl/log/log_entry.cc \
+	/home/azure/AzureNexus/abseil-cpp/absl/log/log_entry.h \
+	/home/azure/Qt/Tools/CMake/bin/cmake

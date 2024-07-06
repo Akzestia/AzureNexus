@@ -1,0 +1,42 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"abseil-cpp/absl/debugging/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 0,
+			"id" : "absl_raw_logging_internal::@75832566c74ae67f1846"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "absl_debugging_internal::@219259b7d0a2efed4773"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "Abseil"
+	},
+	"id" : "absl_stacktrace_autogen_timestamp_deps::@219259b7d0a2efed4773",
+	"isGeneratorProvided" : true,
+	"name" : "absl_stacktrace_autogen_timestamp_deps",
+	"paths" : 
+	{
+		"build" : "abseil-cpp/absl/debugging",
+		"source" : "abseil-cpp/absl/debugging"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

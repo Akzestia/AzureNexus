@@ -1,0 +1,5 @@
+absl_log_internal_conditions_autogen/timestamp: \
+	/home/azure/AzureNexus/abseil-cpp/absl/log/CMakeLists.txt \
+	/home/azure/AzureNexus/abseil-cpp/absl/log/internal/conditions.cc \
+	/home/azure/AzureNexus/abseil-cpp/absl/log/internal/conditions.h \
+	/home/azure/Qt/Tools/CMake/bin/cmake

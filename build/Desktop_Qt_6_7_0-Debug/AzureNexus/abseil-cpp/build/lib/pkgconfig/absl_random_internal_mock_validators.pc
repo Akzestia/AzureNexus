@@ -1,0 +1,12 @@
+prefix=/usr/local
+exec_prefix=${prefix}
+libdir=/usr/local/lib
+includedir=/usr/local/include
+
+Name: absl_random_internal_mock_validators
+Description: Abseil random_internal_mock_validators library
+URL: https://abseil.io/
+Version: head
+Requires: absl_random_internal_iostream_state_saver = head, absl_random_internal_uniform_helper = head, absl_config = head, absl_raw_logging_internal = head, absl_strings = head, absl_string_view = head
+Libs: -L${libdir}  
+Cflags: -I${includedir} -Wnon-virtual-dtor -DNOMINMAX

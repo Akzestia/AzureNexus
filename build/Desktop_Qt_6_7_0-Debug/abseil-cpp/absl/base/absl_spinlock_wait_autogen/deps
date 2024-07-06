@@ -1,0 +1,5 @@
+absl_spinlock_wait_autogen/timestamp: \
+	/home/azure/AzureNexus/abseil-cpp/absl/base/CMakeLists.txt \
+	/home/azure/AzureNexus/abseil-cpp/absl/base/internal/spinlock_wait.cc \
+	/home/azure/AzureNexus/abseil-cpp/absl/base/internal/spinlock_wait.h \
+	/home/azure/Qt/Tools/CMake/bin/cmake

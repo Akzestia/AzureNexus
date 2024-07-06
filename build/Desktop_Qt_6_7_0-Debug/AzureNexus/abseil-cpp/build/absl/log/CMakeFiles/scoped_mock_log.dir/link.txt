@@ -1,0 +1,2 @@
+/usr/bin/ar qc libabsl_scoped_mock_log.a CMakeFiles/scoped_mock_log.dir/scoped_mock_log.cc.o
+/usr/bin/ranlib libabsl_scoped_mock_log.a

@@ -1,0 +1,10 @@
+absl_strings_internal_autogen/timestamp: \
+	/home/azure/AzureNexus/abseil-cpp/absl/strings/CMakeLists.txt \
+	/home/azure/AzureNexus/abseil-cpp/absl/strings/internal/escaping.cc \
+	/home/azure/AzureNexus/abseil-cpp/absl/strings/internal/escaping.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/strings/internal/ostringstream.cc \
+	/home/azure/AzureNexus/abseil-cpp/absl/strings/internal/ostringstream.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/strings/internal/resize_uninitialized.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/strings/internal/utf8.cc \
+	/home/azure/AzureNexus/abseil-cpp/absl/strings/internal/utf8.h \
+	/home/azure/Qt/Tools/CMake/bin/cmake

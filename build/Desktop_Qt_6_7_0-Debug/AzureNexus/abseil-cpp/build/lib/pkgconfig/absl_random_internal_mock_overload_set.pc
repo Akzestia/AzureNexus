@@ -1,0 +1,12 @@
+prefix=/usr/local
+exec_prefix=${prefix}
+libdir=/usr/local/lib
+includedir=/usr/local/include
+
+Name: absl_random_internal_mock_overload_set
+Description: Abseil random_internal_mock_overload_set library
+URL: https://abseil.io/
+Version: head
+Requires: absl_config = head, absl_random_mocking_bit_gen = head, absl_random_internal_mock_helpers = head
+Libs: -L${libdir}  
+Cflags: -I${includedir} -Wnon-virtual-dtor -DNOMINMAX

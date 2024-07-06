@@ -361,8 +361,4 @@
   /usr/include/sys/select.h \
   /usr/include/sys/types.h \
   /usr/include/time.h \
-  /usr/include/wchar.h \
-  /usr/lib/clang/17/include/__stddef_max_align_t.h \
-  /usr/lib/clang/17/include/stdarg.h \
-  /usr/lib/clang/17/include/stdbool.h \
-  /usr/lib/clang/17/include/stddef.h
+  /usr/include/wchar.h

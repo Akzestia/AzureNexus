@@ -1,0 +1,2 @@
+/usr/bin/ar qc libabsl_spinlock_test_common.a CMakeFiles/spinlock_test_common.dir/spinlock_test_common.cc.o
+/usr/bin/ranlib libabsl_spinlock_test_common.a

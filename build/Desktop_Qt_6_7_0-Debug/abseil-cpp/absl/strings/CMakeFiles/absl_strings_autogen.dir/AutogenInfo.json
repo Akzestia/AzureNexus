@@ -1,0 +1,268 @@
+{
+	"BUILD_DIR" : "/home/azure/AzureNexus/build/Desktop_Qt_6_7_0-Debug/abseil-cpp/absl/strings/absl_strings_autogen",
+	"CMAKE_BINARY_DIR" : "/home/azure/AzureNexus/build/Desktop_Qt_6_7_0-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/azure/AzureNexus/build/Desktop_Qt_6_7_0-Debug/abseil-cpp/absl/strings",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/azure/AzureNexus/abseil-cpp/absl/strings",
+	"CMAKE_EXECUTABLE" : "/home/azure/Qt/Tools/CMake/bin/cmake",
+	"CMAKE_LIST_FILES" : [ "/home/azure/AzureNexus/abseil-cpp/absl/strings/CMakeLists.txt" ],
+	"CMAKE_SOURCE_DIR" : "/home/azure/AzureNexus",
+	"CROSS_CONFIG" : false,
+	"DEP_FILE" : "/home/azure/AzureNexus/build/Desktop_Qt_6_7_0-Debug/abseil-cpp/absl/strings/absl_strings_autogen/deps",
+	"DEP_FILE_RULE_NAME" : "absl_strings_autogen/timestamp",
+	"HEADERS" : 
+	[
+		[
+			"/home/azure/AzureNexus/abseil-cpp/absl/strings/ascii.h",
+			"Mu",
+			"EWIEGA46WW/moc_ascii.cpp",
+			null
+		],
+		[
+			"/home/azure/AzureNexus/abseil-cpp/absl/strings/charconv.h",
+			"Mu",
+			"EWIEGA46WW/moc_charconv.cpp",
+			null
+		],
+		[
+			"/home/azure/AzureNexus/abseil-cpp/absl/strings/escaping.h",
+			"Mu",
+			"EWIEGA46WW/moc_escaping.cpp",
+			null
+		],
+		[
+			"/home/azure/AzureNexus/abseil-cpp/absl/strings/has_absl_stringify.h",
+			"Mu",
+			"EWIEGA46WW/moc_has_absl_stringify.cpp",
+			null
+		],
+		[
+			"/home/azure/AzureNexus/abseil-cpp/absl/strings/internal/charconv_bigint.h",
+			"Mu",
+			"EGDWYGFDBT/moc_charconv_bigint.cpp",
+			null
+		],
+		[
+			"/home/azure/AzureNexus/abseil-cpp/absl/strings/internal/charconv_parse.h",
+			"Mu",
+			"EGDWYGFDBT/moc_charconv_parse.cpp",
+			null
+		],
+		[
+			"/home/azure/AzureNexus/abseil-cpp/absl/strings/internal/damerau_levenshtein_distance.h",
+			"Mu",
+			"EGDWYGFDBT/moc_damerau_levenshtein_distance.cpp",
+			null
+		],
+		[
+			"/home/azure/AzureNexus/abseil-cpp/absl/strings/internal/has_absl_stringify.h",
+			"Mu",
+			"EGDWYGFDBT/moc_has_absl_stringify.cpp",
+			null
+		],
+		[
+			"/home/azure/AzureNexus/abseil-cpp/absl/strings/internal/memutil.h",
+			"Mu",
+			"EGDWYGFDBT/moc_memutil.cpp",
+			null
+		],
+		[
+			"/home/azure/AzureNexus/abseil-cpp/absl/strings/internal/stl_type_traits.h",
+			"Mu",
+			"EGDWYGFDBT/moc_stl_type_traits.cpp",
+			null
+		],
+		[
+			"/home/azure/AzureNexus/abseil-cpp/absl/strings/internal/str_join_internal.h",
+			"Mu",
+			"EGDWYGFDBT/moc_str_join_internal.cpp",
+			null
+		],
+		[
+			"/home/azure/AzureNexus/abseil-cpp/absl/strings/internal/str_split_internal.h",
+			"Mu",
+			"EGDWYGFDBT/moc_str_split_internal.cpp",
+			null
+		],
+		[
+			"/home/azure/AzureNexus/abseil-cpp/absl/strings/internal/string_constant.h",
+			"Mu",
+			"EGDWYGFDBT/moc_string_constant.cpp",
+			null
+		],
+		[
+			"/home/azure/AzureNexus/abseil-cpp/absl/strings/internal/stringify_sink.h",
+			"Mu",
+			"EGDWYGFDBT/moc_stringify_sink.cpp",
+			null
+		],
+		[
+			"/home/azure/AzureNexus/abseil-cpp/absl/strings/match.h",
+			"Mu",
+			"EWIEGA46WW/moc_match.cpp",
+			null
+		],
+		[
+			"/home/azure/AzureNexus/abseil-cpp/absl/strings/numbers.h",
+			"Mu",
+			"EWIEGA46WW/moc_numbers.cpp",
+			null
+		],
+		[
+			"/home/azure/AzureNexus/abseil-cpp/absl/strings/str_cat.h",
+			"Mu",
+			"EWIEGA46WW/moc_str_cat.cpp",
+			null
+		],
+		[
+			"/home/azure/AzureNexus/abseil-cpp/absl/strings/str_join.h",
+			"Mu",
+			"EWIEGA46WW/moc_str_join.cpp",
+			null
+		],
+		[
+			"/home/azure/AzureNexus/abseil-cpp/absl/strings/str_replace.h",
+			"Mu",
+			"EWIEGA46WW/moc_str_replace.cpp",
+			null
+		],
+		[
+			"/home/azure/AzureNexus/abseil-cpp/absl/strings/str_split.h",
+			"Mu",
+			"EWIEGA46WW/moc_str_split.cpp",
+			null
+		],
+		[
+			"/home/azure/AzureNexus/abseil-cpp/absl/strings/strip.h",
+			"Mu",
+			"EWIEGA46WW/moc_strip.cpp",
+			null
+		],
+		[
+			"/home/azure/AzureNexus/abseil-cpp/absl/strings/substitute.h",
+			"Mu",
+			"EWIEGA46WW/moc_substitute.cpp",
+			null
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/home/azure/AzureNexus/build/Desktop_Qt_6_7_0-Debug/abseil-cpp/absl/strings/absl_strings_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/azure/AzureNexus/build/Desktop_Qt_6_7_0-Debug/abseil-cpp/absl/strings/absl_strings_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : [],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/home/azure/AzureNexus/abseil-cpp",
+		"/usr/include/c++/14.1.1",
+		"/usr/include/c++/14.1.1/x86_64-pc-linux-gnu",
+		"/usr/include/c++/14.1.1/backward",
+		"/usr/lib/clang/17/include",
+		"/usr/local/include",
+		"/usr/include"
+	],
+	"MOC_MACRO_NAMES" : 
+	[
+		"Q_OBJECT",
+		"Q_GADGET",
+		"Q_NAMESPACE",
+		"Q_NAMESPACE_EXPORT",
+		"Q_GADGET_EXPORT",
+		"Q_ENUM_NS"
+	],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/usr/bin/clang++",
+		"-dM",
+		"-E",
+		"-c",
+		"/home/azure/Qt/Tools/CMake/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/home/azure/AzureNexus/build/Desktop_Qt_6_7_0-Debug/abseil-cpp/absl/strings/absl_strings_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : 
+	[
+		"/home/azure/AzureNexus/build/Desktop_Qt_6_7_0-Debug/abseil-cpp/absl/strings/absl_string_view_autogen/mocs_compilation.cpp"
+	],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 8,
+	"PARSE_CACHE_FILE" : "/home/azure/AzureNexus/build/Desktop_Qt_6_7_0-Debug/abseil-cpp/absl/strings/CMakeFiles/absl_strings_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/home/azure/Qt/6.7.1/gcc_64/./libexec/moc",
+	"QT_UIC_EXECUTABLE" : "",
+	"QT_VERSION_MAJOR" : 6,
+	"QT_VERSION_MINOR" : 7,
+	"SETTINGS_FILE" : "/home/azure/AzureNexus/build/Desktop_Qt_6_7_0-Debug/abseil-cpp/absl/strings/CMakeFiles/absl_strings_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[ "/home/azure/AzureNexus/abseil-cpp/absl/strings/ascii.cc", "Mu", null ],
+		[
+			"/home/azure/AzureNexus/abseil-cpp/absl/strings/charconv.cc",
+			"Mu",
+			null
+		],
+		[
+			"/home/azure/AzureNexus/abseil-cpp/absl/strings/escaping.cc",
+			"Mu",
+			null
+		],
+		[
+			"/home/azure/AzureNexus/abseil-cpp/absl/strings/internal/charconv_bigint.cc",
+			"Mu",
+			null
+		],
+		[
+			"/home/azure/AzureNexus/abseil-cpp/absl/strings/internal/charconv_parse.cc",
+			"Mu",
+			null
+		],
+		[
+			"/home/azure/AzureNexus/abseil-cpp/absl/strings/internal/damerau_levenshtein_distance.cc",
+			"Mu",
+			null
+		],
+		[
+			"/home/azure/AzureNexus/abseil-cpp/absl/strings/internal/memutil.cc",
+			"Mu",
+			null
+		],
+		[
+			"/home/azure/AzureNexus/abseil-cpp/absl/strings/internal/stringify_sink.cc",
+			"Mu",
+			null
+		],
+		[ "/home/azure/AzureNexus/abseil-cpp/absl/strings/match.cc", "Mu", null ],
+		[
+			"/home/azure/AzureNexus/abseil-cpp/absl/strings/numbers.cc",
+			"Mu",
+			null
+		],
+		[
+			"/home/azure/AzureNexus/abseil-cpp/absl/strings/str_cat.cc",
+			"Mu",
+			null
+		],
+		[
+			"/home/azure/AzureNexus/abseil-cpp/absl/strings/str_replace.cc",
+			"Mu",
+			null
+		],
+		[
+			"/home/azure/AzureNexus/abseil-cpp/absl/strings/str_split.cc",
+			"Mu",
+			null
+		],
+		[
+			"/home/azure/AzureNexus/abseil-cpp/absl/strings/substitute.cc",
+			"Mu",
+			null
+		]
+	],
+	"USE_BETTER_GRAPH" : false,
+	"VERBOSITY" : 0
+}

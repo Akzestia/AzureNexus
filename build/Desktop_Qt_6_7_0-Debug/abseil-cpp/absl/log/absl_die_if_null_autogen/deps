@@ -1,0 +1,5 @@
+absl_die_if_null_autogen/timestamp: \
+	/home/azure/AzureNexus/abseil-cpp/absl/log/CMakeLists.txt \
+	/home/azure/AzureNexus/abseil-cpp/absl/log/die_if_null.cc \
+	/home/azure/AzureNexus/abseil-cpp/absl/log/die_if_null.h \
+	/home/azure/Qt/Tools/CMake/bin/cmake

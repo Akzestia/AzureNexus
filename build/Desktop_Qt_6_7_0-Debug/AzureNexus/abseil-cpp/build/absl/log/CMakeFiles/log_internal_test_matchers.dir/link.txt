@@ -1,0 +1,2 @@
+/usr/bin/ar qc libabsl_log_internal_test_matchers.a CMakeFiles/log_internal_test_matchers.dir/internal/test_matchers.cc.o
+/usr/bin/ranlib libabsl_log_internal_test_matchers.a

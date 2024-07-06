@@ -1,0 +1,5 @@
+absl_log_globals_autogen/timestamp: \
+	/home/azure/AzureNexus/abseil-cpp/absl/log/CMakeLists.txt \
+	/home/azure/AzureNexus/abseil-cpp/absl/log/globals.cc \
+	/home/azure/AzureNexus/abseil-cpp/absl/log/globals.h \
+	/home/azure/Qt/Tools/CMake/bin/cmake

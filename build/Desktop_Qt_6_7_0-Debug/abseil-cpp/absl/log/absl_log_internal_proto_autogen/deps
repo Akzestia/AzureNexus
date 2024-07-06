@@ -1,0 +1,5 @@
+absl_log_internal_proto_autogen/timestamp: \
+	/home/azure/AzureNexus/abseil-cpp/absl/log/CMakeLists.txt \
+	/home/azure/AzureNexus/abseil-cpp/absl/log/internal/proto.cc \
+	/home/azure/AzureNexus/abseil-cpp/absl/log/internal/proto.h \
+	/home/azure/Qt/Tools/CMake/bin/cmake

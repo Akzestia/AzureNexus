@@ -1174,6 +1174,36 @@
 			"Mu",
 			"Q3GRS2XXFF/moc_RequestManager.cpp",
 			null
+		],
+		[
+			"/home/azure/Documents/GitHub/Linux-x64-HTTP3/db/DbManager.h",
+			"Mu",
+			"J2G7AAX6GO/moc_DbManager.cpp",
+			null
+		],
+		[
+			"/home/azure/Documents/GitHub/Linux-x64-HTTP3/proto/build/auth.pb.h",
+			"Mu",
+			"7GE63FUNKI/moc_auth.pb.cpp",
+			null
+		],
+		[
+			"/home/azure/Documents/GitHub/Linux-x64-HTTP3/proto/build/sign_in.pb.h",
+			"Mu",
+			"7GE63FUNKI/moc_sign_in.pb.cpp",
+			null
+		],
+		[
+			"/home/azure/Documents/GitHub/Linux-x64-HTTP3/proto/build/sign_up.pb.h",
+			"Mu",
+			"7GE63FUNKI/moc_sign_up.pb.cpp",
+			null
+		],
+		[
+			"/home/azure/Documents/GitHub/Linux-x64-HTTP3/proto/build/user.pb.h",
+			"Mu",
+			"7GE63FUNKI/moc_user.pb.cpp",
+			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
@@ -1205,6 +1235,7 @@
 	"MOC_INCLUDES" : 
 	[
 		"/home/azure/AzureNexus",
+		"/home/azure/AzureNexus/abseil-cpp",
 		"/home/azure/Qt/6.7.1/gcc_64/include/QtQml/6.7.1",
 		"/home/azure/Qt/6.7.1/gcc_64/include/QtQml/6.7.1/QtQml",
 		"/home/azure/Qt/6.7.1/gcc_64/include/QtCore/6.7.1",
@@ -1294,6 +1325,31 @@
 		],
 		[
 			"/home/azure/Documents/GitHub/Linux-x64-HTTP3/client/clientRequestManager/RequestManager.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/azure/Documents/GitHub/Linux-x64-HTTP3/db/DbManager.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/azure/Documents/GitHub/Linux-x64-HTTP3/proto/build/auth.pb.cc",
+			"Mu",
+			null
+		],
+		[
+			"/home/azure/Documents/GitHub/Linux-x64-HTTP3/proto/build/sign_in.pb.cc",
+			"Mu",
+			null
+		],
+		[
+			"/home/azure/Documents/GitHub/Linux-x64-HTTP3/proto/build/sign_up.pb.cc",
+			"Mu",
+			null
+		],
+		[
+			"/home/azure/Documents/GitHub/Linux-x64-HTTP3/proto/build/user.pb.cc",
 			"Mu",
 			null
 		]

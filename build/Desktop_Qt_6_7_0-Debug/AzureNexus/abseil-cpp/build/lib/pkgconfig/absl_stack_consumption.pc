@@ -1,0 +1,12 @@
+prefix=/usr/local
+exec_prefix=${prefix}
+libdir=/usr/local/lib
+includedir=/usr/local/include
+
+Name: absl_stack_consumption
+Description: Abseil stack_consumption library
+URL: https://abseil.io/
+Version: head
+Requires: absl_config = head, absl_core_headers = head, absl_raw_logging_internal = head
+Libs: -L${libdir}  -labsl_stack_consumption 
+Cflags: -I${includedir} -Wnon-virtual-dtor -DNOMINMAX

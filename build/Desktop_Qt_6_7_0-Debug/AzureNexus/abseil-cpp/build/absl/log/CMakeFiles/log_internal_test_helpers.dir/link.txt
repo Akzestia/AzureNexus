@@ -1,0 +1,2 @@
+/usr/bin/ar qc libabsl_log_internal_test_helpers.a CMakeFiles/log_internal_test_helpers.dir/internal/test_helpers.cc.o
+/usr/bin/ranlib libabsl_log_internal_test_helpers.a

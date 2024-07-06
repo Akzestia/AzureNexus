@@ -1,0 +1,14 @@
+# Target labels
+ googletest
+# Source files and their labels
+/home/azure/abseil-cpp/build/googletest-external/CMakeFiles/googletest
+/home/azure/abseil-cpp/build/googletest-external/CMakeFiles/googletest.rule
+/home/azure/abseil-cpp/build/googletest-external/CMakeFiles/googletest-complete.rule
+/home/azure/abseil-cpp/build/googletest-external/googletest-prefix/src/googletest-stamp/googletest-build.rule
+/home/azure/abseil-cpp/build/googletest-external/googletest-prefix/src/googletest-stamp/googletest-configure.rule
+/home/azure/abseil-cpp/build/googletest-external/googletest-prefix/src/googletest-stamp/googletest-download.rule
+/home/azure/abseil-cpp/build/googletest-external/googletest-prefix/src/googletest-stamp/googletest-install.rule
+/home/azure/abseil-cpp/build/googletest-external/googletest-prefix/src/googletest-stamp/googletest-mkdir.rule
+/home/azure/abseil-cpp/build/googletest-external/googletest-prefix/src/googletest-stamp/googletest-patch.rule
+/home/azure/abseil-cpp/build/googletest-external/googletest-prefix/src/googletest-stamp/googletest-test.rule
+/home/azure/abseil-cpp/build/googletest-external/googletest-prefix/src/googletest-stamp/googletest-update.rule

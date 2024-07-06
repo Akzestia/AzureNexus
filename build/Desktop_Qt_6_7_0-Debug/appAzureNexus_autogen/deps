@@ -25,6 +25,16 @@ appAzureNexus_autogen/timestamp: \
 	/home/azure/Documents/GitHub/Linux-x64-HTTP3/client/QuicClient.h \
 	/home/azure/Documents/GitHub/Linux-x64-HTTP3/client/clientRequestManager/RequestManager.cpp \
 	/home/azure/Documents/GitHub/Linux-x64-HTTP3/client/clientRequestManager/RequestManager.h \
+	/home/azure/Documents/GitHub/Linux-x64-HTTP3/db/DbManager.cpp \
+	/home/azure/Documents/GitHub/Linux-x64-HTTP3/db/DbManager.h \
+	/home/azure/Documents/GitHub/Linux-x64-HTTP3/proto/build/auth.pb.cc \
+	/home/azure/Documents/GitHub/Linux-x64-HTTP3/proto/build/auth.pb.h \
+	/home/azure/Documents/GitHub/Linux-x64-HTTP3/proto/build/sign_in.pb.cc \
+	/home/azure/Documents/GitHub/Linux-x64-HTTP3/proto/build/sign_in.pb.h \
+	/home/azure/Documents/GitHub/Linux-x64-HTTP3/proto/build/sign_up.pb.cc \
+	/home/azure/Documents/GitHub/Linux-x64-HTTP3/proto/build/sign_up.pb.h \
+	/home/azure/Documents/GitHub/Linux-x64-HTTP3/proto/build/user.pb.cc \
+	/home/azure/Documents/GitHub/Linux-x64-HTTP3/proto/build/user.pb.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/QAbstractItemModel \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/QBuffer \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/QDateTime \
@@ -1358,9 +1368,4 @@ appAzureNexus_autogen/timestamp: \
 	/usr/include/time.h \
 	/usr/include/unistd.h \
 	/usr/include/wchar.h \
-	/usr/lib/clang/17/include/__stddef_max_align_t.h \
-	/usr/lib/clang/17/include/float.h \
-	/usr/lib/clang/17/include/stdarg.h \
-	/usr/lib/clang/17/include/stdbool.h \
-	/usr/lib/clang/17/include/stddef.h \
 	/home/azure/Qt/Tools/CMake/bin/cmake

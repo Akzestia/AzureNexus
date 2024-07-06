@@ -1,0 +1,12 @@
+prefix=/usr/local
+exec_prefix=${prefix}
+libdir=/usr/local/lib
+includedir=/usr/local/include
+
+Name: absl_time_internal_test_util
+Description: Abseil time_internal_test_util library
+URL: https://abseil.io/
+Version: head
+Requires: absl_time = head, absl_config = head, absl_raw_logging_internal = head, absl_time_zone = head
+Libs: -L${libdir}  -labsl_time_internal_test_util 
+Cflags: -I${includedir} -Wnon-virtual-dtor -DNOMINMAX

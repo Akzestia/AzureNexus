@@ -1,0 +1,2 @@
+/usr/bin/ar qc libabsl_stack_consumption.a CMakeFiles/stack_consumption.dir/internal/stack_consumption.cc.o
+/usr/bin/ranlib libabsl_stack_consumption.a

@@ -1,0 +1,9 @@
+absl_cord_autogen/timestamp: \
+	/home/azure/AzureNexus/abseil-cpp/absl/strings/CMakeLists.txt \
+	/home/azure/AzureNexus/abseil-cpp/absl/strings/cord.cc \
+	/home/azure/AzureNexus/abseil-cpp/absl/strings/cord.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/strings/cord_analysis.cc \
+	/home/azure/AzureNexus/abseil-cpp/absl/strings/cord_analysis.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/strings/cord_buffer.cc \
+	/home/azure/AzureNexus/abseil-cpp/absl/strings/cord_buffer.h \
+	/home/azure/Qt/Tools/CMake/bin/cmake

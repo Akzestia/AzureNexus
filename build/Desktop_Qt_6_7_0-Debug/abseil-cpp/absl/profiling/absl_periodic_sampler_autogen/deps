@@ -1,0 +1,5 @@
+absl_periodic_sampler_autogen/timestamp: \
+	/home/azure/AzureNexus/abseil-cpp/absl/profiling/CMakeLists.txt \
+	/home/azure/AzureNexus/abseil-cpp/absl/profiling/internal/periodic_sampler.cc \
+	/home/azure/AzureNexus/abseil-cpp/absl/profiling/internal/periodic_sampler.h \
+	/home/azure/Qt/Tools/CMake/bin/cmake

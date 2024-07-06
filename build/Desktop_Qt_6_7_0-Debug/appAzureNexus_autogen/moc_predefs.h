@@ -220,6 +220,11 @@
 #define __LONG_MAX__ 9223372036854775807L
 #define __LONG_WIDTH__ 64
 #define __LP64__ 1
+#define __MEMORY_SCOPE_DEVICE 1
+#define __MEMORY_SCOPE_SINGLE 4
+#define __MEMORY_SCOPE_SYSTEM 0
+#define __MEMORY_SCOPE_WRKGRP 2
+#define __MEMORY_SCOPE_WVFRNT 3
 #define __MMX__ 1
 #define __NO_INLINE__ 1
 #define __NO_MATH_INLINES 1
@@ -373,7 +378,7 @@
 #define __UINT_LEAST8_MAX__ 255
 #define __UINT_LEAST8_TYPE__ unsigned char
 #define __USER_LABEL_PREFIX__ 
-#define __VERSION__ "Clang 17.0.6"
+#define __VERSION__ "Clang 18.1.8"
 #define __WCHAR_MAX__ 2147483647
 #define __WCHAR_TYPE__ int
 #define __WCHAR_WIDTH__ 32
@@ -385,10 +390,10 @@
 #define __amd64__ 1
 #define __clang__ 1
 #define __clang_literal_encoding__ "UTF-8"
-#define __clang_major__ 17
-#define __clang_minor__ 0
-#define __clang_patchlevel__ 6
-#define __clang_version__ "17.0.6 "
+#define __clang_major__ 18
+#define __clang_minor__ 1
+#define __clang_patchlevel__ 8
+#define __clang_version__ "18.1.8 "
 #define __clang_wide_literal_encoding__ "UTF-32"
 #define __code_model_small__ 1
 #define __cplusplus 201703L
@@ -426,6 +431,7 @@
 #define __cpp_nontype_template_args 201411L
 #define __cpp_nontype_template_parameter_auto 201606L
 #define __cpp_nsdmi 200809L
+#define __cpp_placeholder_variables 202306L
 #define __cpp_range_based_for 201603L
 #define __cpp_raw_strings 200710L
 #define __cpp_ref_qualifiers 200710L

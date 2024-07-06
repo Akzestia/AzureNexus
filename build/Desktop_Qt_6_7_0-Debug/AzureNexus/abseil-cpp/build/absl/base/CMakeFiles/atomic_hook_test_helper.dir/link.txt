@@ -1,0 +1,2 @@
+/usr/bin/ar qc libabsl_atomic_hook_test_helper.a CMakeFiles/atomic_hook_test_helper.dir/internal/atomic_hook_test_helper.cc.o
+/usr/bin/ranlib libabsl_atomic_hook_test_helper.a

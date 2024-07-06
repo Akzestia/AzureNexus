@@ -1,0 +1,5 @@
+absl_log_internal_log_sink_set_autogen/timestamp: \
+	/home/azure/AzureNexus/abseil-cpp/absl/log/CMakeLists.txt \
+	/home/azure/AzureNexus/abseil-cpp/absl/log/internal/log_sink_set.cc \
+	/home/azure/AzureNexus/abseil-cpp/absl/log/internal/log_sink_set.h \
+	/home/azure/Qt/Tools/CMake/bin/cmake

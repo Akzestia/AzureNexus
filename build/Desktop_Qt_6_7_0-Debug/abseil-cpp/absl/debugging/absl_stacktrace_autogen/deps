@@ -1,0 +1,6 @@
+absl_stacktrace_autogen/timestamp: \
+	/home/azure/AzureNexus/abseil-cpp/absl/debugging/CMakeLists.txt \
+	/home/azure/AzureNexus/abseil-cpp/absl/debugging/internal/stacktrace_config.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/debugging/stacktrace.cc \
+	/home/azure/AzureNexus/abseil-cpp/absl/debugging/stacktrace.h \
+	/home/azure/Qt/Tools/CMake/bin/cmake

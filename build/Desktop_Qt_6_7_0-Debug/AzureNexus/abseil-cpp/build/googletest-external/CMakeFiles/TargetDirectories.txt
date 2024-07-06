@@ -1,0 +1,3 @@
+/home/azure/abseil-cpp/build/googletest-external/CMakeFiles/googletest.dir
+/home/azure/abseil-cpp/build/googletest-external/CMakeFiles/edit_cache.dir
+/home/azure/abseil-cpp/build/googletest-external/CMakeFiles/rebuild_cache.dir

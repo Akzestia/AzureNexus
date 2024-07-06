@@ -31,7 +31,7 @@ ApplicationWindow {
 
         Text {
             color: "white"
-            text: "Sign up"
+            text: "Sign up こんにちは"
             Layout.alignment: Qt.AlignHCenter | Qt.AlignVCenter
             font.pixelSize: 20
             Layout.topMargin: 50

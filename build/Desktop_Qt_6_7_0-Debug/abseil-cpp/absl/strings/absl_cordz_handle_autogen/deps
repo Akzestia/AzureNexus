@@ -1,0 +1,5 @@
+absl_cordz_handle_autogen/timestamp: \
+	/home/azure/AzureNexus/abseil-cpp/absl/strings/CMakeLists.txt \
+	/home/azure/AzureNexus/abseil-cpp/absl/strings/internal/cordz_handle.cc \
+	/home/azure/AzureNexus/abseil-cpp/absl/strings/internal/cordz_handle.h \
+	/home/azure/Qt/Tools/CMake/bin/cmake

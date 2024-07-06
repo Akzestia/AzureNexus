@@ -1,0 +1,12 @@
+prefix=/usr/local
+exec_prefix=${prefix}
+libdir=/usr/local/lib
+includedir=/usr/local/include
+
+Name: absl_random_mocking_bit_gen
+Description: Abseil random_mocking_bit_gen library
+URL: https://abseil.io/
+Version: head
+Requires: absl_config = head, absl_core_headers = head, absl_flat_hash_map = head, absl_raw_logging_internal = head, absl_random_internal_mock_helpers = head, absl_random_internal_mock_overload_set = head, absl_random_internal_mock_validators = head, absl_random_random = head, absl_utility = head
+Libs: -L${libdir}  
+Cflags: -I${includedir} -Wnon-virtual-dtor -DNOMINMAX

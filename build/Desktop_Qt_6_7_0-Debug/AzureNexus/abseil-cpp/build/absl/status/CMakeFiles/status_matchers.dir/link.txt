@@ -1,0 +1,2 @@
+/usr/bin/ar qc libabsl_status_matchers.a CMakeFiles/status_matchers.dir/internal/status_matchers.cc.o
+/usr/bin/ranlib libabsl_status_matchers.a

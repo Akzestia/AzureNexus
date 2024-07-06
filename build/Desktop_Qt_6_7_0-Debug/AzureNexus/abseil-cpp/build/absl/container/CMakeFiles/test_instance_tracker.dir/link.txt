@@ -1,0 +1,2 @@
+/usr/bin/ar qc libabsl_test_instance_tracker.a CMakeFiles/test_instance_tracker.dir/internal/test_instance_tracker.cc.o
+/usr/bin/ranlib libabsl_test_instance_tracker.a

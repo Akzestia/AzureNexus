@@ -1,0 +1,12 @@
+prefix=/usr/local
+exec_prefix=${prefix}
+libdir=/usr/local/lib
+includedir=/usr/local/include
+
+Name: absl_thread_pool
+Description: Abseil thread_pool library
+URL: https://abseil.io/
+Version: head
+Requires: absl_any_invocable = head, absl_core_headers = head, absl_synchronization = head
+Libs: -L${libdir}  
+Cflags: -I${includedir} -Wnon-virtual-dtor -DNOMINMAX

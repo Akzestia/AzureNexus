@@ -1,0 +1,2 @@
+/usr/bin/ar qc libabsl_pow10_helper.a CMakeFiles/pow10_helper.dir/internal/pow10_helper.cc.o
+/usr/bin/ranlib libabsl_pow10_helper.a

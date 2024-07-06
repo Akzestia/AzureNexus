@@ -1,0 +1,9 @@
+absl_debugging_internal_autogen/timestamp: \
+	/home/azure/AzureNexus/abseil-cpp/absl/debugging/CMakeLists.txt \
+	/home/azure/AzureNexus/abseil-cpp/absl/debugging/internal/address_is_readable.cc \
+	/home/azure/AzureNexus/abseil-cpp/absl/debugging/internal/address_is_readable.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/debugging/internal/elf_mem_image.cc \
+	/home/azure/AzureNexus/abseil-cpp/absl/debugging/internal/elf_mem_image.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/debugging/internal/vdso_support.cc \
+	/home/azure/AzureNexus/abseil-cpp/absl/debugging/internal/vdso_support.h \
+	/home/azure/Qt/Tools/CMake/bin/cmake

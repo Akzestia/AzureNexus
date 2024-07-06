@@ -1,0 +1,2 @@
+/usr/bin/ar qc libabsl_time_internal_test_util.a CMakeFiles/time_internal_test_util.dir/internal/test_util.cc.o
+/usr/bin/ranlib libabsl_time_internal_test_util.a

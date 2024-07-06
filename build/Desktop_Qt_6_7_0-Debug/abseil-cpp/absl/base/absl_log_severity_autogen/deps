@@ -1,0 +1,5 @@
+absl_log_severity_autogen/timestamp: \
+	/home/azure/AzureNexus/abseil-cpp/absl/base/CMakeLists.txt \
+	/home/azure/AzureNexus/abseil-cpp/absl/base/log_severity.cc \
+	/home/azure/AzureNexus/abseil-cpp/absl/base/log_severity.h \
+	/home/azure/Qt/Tools/CMake/bin/cmake

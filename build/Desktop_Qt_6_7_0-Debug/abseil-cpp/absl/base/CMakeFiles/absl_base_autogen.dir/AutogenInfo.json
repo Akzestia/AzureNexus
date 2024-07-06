@@ -1,0 +1,174 @@
+{
+	"BUILD_DIR" : "/home/azure/AzureNexus/build/Desktop_Qt_6_7_0-Debug/abseil-cpp/absl/base/absl_base_autogen",
+	"CMAKE_BINARY_DIR" : "/home/azure/AzureNexus/build/Desktop_Qt_6_7_0-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/azure/AzureNexus/build/Desktop_Qt_6_7_0-Debug/abseil-cpp/absl/base",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/azure/AzureNexus/abseil-cpp/absl/base",
+	"CMAKE_EXECUTABLE" : "/home/azure/Qt/Tools/CMake/bin/cmake",
+	"CMAKE_LIST_FILES" : [ "/home/azure/AzureNexus/abseil-cpp/absl/base/CMakeLists.txt" ],
+	"CMAKE_SOURCE_DIR" : "/home/azure/AzureNexus",
+	"CROSS_CONFIG" : false,
+	"DEP_FILE" : "/home/azure/AzureNexus/build/Desktop_Qt_6_7_0-Debug/abseil-cpp/absl/base/absl_base_autogen/deps",
+	"DEP_FILE_RULE_NAME" : "absl_base_autogen/timestamp",
+	"HEADERS" : 
+	[
+		[
+			"/home/azure/AzureNexus/abseil-cpp/absl/base/call_once.h",
+			"Mu",
+			"EWIEGA46WW/moc_call_once.cpp",
+			null
+		],
+		[
+			"/home/azure/AzureNexus/abseil-cpp/absl/base/casts.h",
+			"Mu",
+			"EWIEGA46WW/moc_casts.cpp",
+			null
+		],
+		[
+			"/home/azure/AzureNexus/abseil-cpp/absl/base/internal/cycleclock.h",
+			"Mu",
+			"EGDWYGFDBT/moc_cycleclock.cpp",
+			null
+		],
+		[
+			"/home/azure/AzureNexus/abseil-cpp/absl/base/internal/cycleclock_config.h",
+			"Mu",
+			"EGDWYGFDBT/moc_cycleclock_config.cpp",
+			null
+		],
+		[
+			"/home/azure/AzureNexus/abseil-cpp/absl/base/internal/low_level_scheduling.h",
+			"Mu",
+			"EGDWYGFDBT/moc_low_level_scheduling.cpp",
+			null
+		],
+		[
+			"/home/azure/AzureNexus/abseil-cpp/absl/base/internal/per_thread_tls.h",
+			"Mu",
+			"EGDWYGFDBT/moc_per_thread_tls.cpp",
+			null
+		],
+		[
+			"/home/azure/AzureNexus/abseil-cpp/absl/base/internal/spinlock.h",
+			"Mu",
+			"EGDWYGFDBT/moc_spinlock.cpp",
+			null
+		],
+		[
+			"/home/azure/AzureNexus/abseil-cpp/absl/base/internal/sysinfo.h",
+			"Mu",
+			"EGDWYGFDBT/moc_sysinfo.cpp",
+			null
+		],
+		[
+			"/home/azure/AzureNexus/abseil-cpp/absl/base/internal/thread_identity.h",
+			"Mu",
+			"EGDWYGFDBT/moc_thread_identity.cpp",
+			null
+		],
+		[
+			"/home/azure/AzureNexus/abseil-cpp/absl/base/internal/tsan_mutex_interface.h",
+			"Mu",
+			"EGDWYGFDBT/moc_tsan_mutex_interface.cpp",
+			null
+		],
+		[
+			"/home/azure/AzureNexus/abseil-cpp/absl/base/internal/unscaledcycleclock.h",
+			"Mu",
+			"EGDWYGFDBT/moc_unscaledcycleclock.cpp",
+			null
+		],
+		[
+			"/home/azure/AzureNexus/abseil-cpp/absl/base/internal/unscaledcycleclock_config.h",
+			"Mu",
+			"EGDWYGFDBT/moc_unscaledcycleclock_config.cpp",
+			null
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/home/azure/AzureNexus/build/Desktop_Qt_6_7_0-Debug/abseil-cpp/absl/base/absl_base_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/azure/AzureNexus/build/Desktop_Qt_6_7_0-Debug/abseil-cpp/absl/base/absl_base_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : [],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/home/azure/AzureNexus/abseil-cpp",
+		"/usr/include/c++/14.1.1",
+		"/usr/include/c++/14.1.1/x86_64-pc-linux-gnu",
+		"/usr/include/c++/14.1.1/backward",
+		"/usr/lib/clang/17/include",
+		"/usr/local/include",
+		"/usr/include"
+	],
+	"MOC_MACRO_NAMES" : 
+	[
+		"Q_OBJECT",
+		"Q_GADGET",
+		"Q_NAMESPACE",
+		"Q_NAMESPACE_EXPORT",
+		"Q_GADGET_EXPORT",
+		"Q_ENUM_NS"
+	],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/usr/bin/clang++",
+		"-dM",
+		"-E",
+		"-c",
+		"/home/azure/Qt/Tools/CMake/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/home/azure/AzureNexus/build/Desktop_Qt_6_7_0-Debug/abseil-cpp/absl/base/absl_base_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : 
+	[
+		"/home/azure/AzureNexus/build/Desktop_Qt_6_7_0-Debug/abseil-cpp/absl/base/absl_log_severity_autogen/mocs_compilation.cpp",
+		"/home/azure/AzureNexus/build/Desktop_Qt_6_7_0-Debug/abseil-cpp/absl/base/absl_malloc_internal_autogen/mocs_compilation.cpp",
+		"/home/azure/AzureNexus/build/Desktop_Qt_6_7_0-Debug/abseil-cpp/absl/base/absl_raw_logging_internal_autogen/mocs_compilation.cpp",
+		"/home/azure/AzureNexus/build/Desktop_Qt_6_7_0-Debug/abseil-cpp/absl/base/absl_spinlock_wait_autogen/mocs_compilation.cpp"
+	],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 8,
+	"PARSE_CACHE_FILE" : "/home/azure/AzureNexus/build/Desktop_Qt_6_7_0-Debug/abseil-cpp/absl/base/CMakeFiles/absl_base_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/home/azure/Qt/6.7.1/gcc_64/./libexec/moc",
+	"QT_UIC_EXECUTABLE" : "",
+	"QT_VERSION_MAJOR" : 6,
+	"QT_VERSION_MINOR" : 7,
+	"SETTINGS_FILE" : "/home/azure/AzureNexus/build/Desktop_Qt_6_7_0-Debug/abseil-cpp/absl/base/CMakeFiles/absl_base_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"/home/azure/AzureNexus/abseil-cpp/absl/base/internal/cycleclock.cc",
+			"Mu",
+			null
+		],
+		[
+			"/home/azure/AzureNexus/abseil-cpp/absl/base/internal/spinlock.cc",
+			"Mu",
+			null
+		],
+		[
+			"/home/azure/AzureNexus/abseil-cpp/absl/base/internal/sysinfo.cc",
+			"Mu",
+			null
+		],
+		[
+			"/home/azure/AzureNexus/abseil-cpp/absl/base/internal/thread_identity.cc",
+			"Mu",
+			null
+		],
+		[
+			"/home/azure/AzureNexus/abseil-cpp/absl/base/internal/unscaledcycleclock.cc",
+			"Mu",
+			null
+		]
+	],
+	"USE_BETTER_GRAPH" : false,
+	"VERBOSITY" : 0
+}

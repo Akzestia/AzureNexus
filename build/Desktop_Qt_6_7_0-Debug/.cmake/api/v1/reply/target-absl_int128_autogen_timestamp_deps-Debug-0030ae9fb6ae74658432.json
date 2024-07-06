@@ -1,0 +1,31 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"abseil-cpp/absl/numeric/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"folder" : 
+	{
+		"name" : "Abseil"
+	},
+	"id" : "absl_int128_autogen_timestamp_deps::@35227d1743c50db2a020",
+	"isGeneratorProvided" : true,
+	"name" : "absl_int128_autogen_timestamp_deps",
+	"paths" : 
+	{
+		"build" : "abseil-cpp/absl/numeric",
+		"source" : "abseil-cpp/absl/numeric"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

@@ -1,0 +1,5 @@
+absl_crc_cpu_detect_autogen/timestamp: \
+	/home/azure/AzureNexus/abseil-cpp/absl/crc/CMakeLists.txt \
+	/home/azure/AzureNexus/abseil-cpp/absl/crc/internal/cpu_detect.cc \
+	/home/azure/AzureNexus/abseil-cpp/absl/crc/internal/cpu_detect.h \
+	/home/azure/Qt/Tools/CMake/bin/cmake

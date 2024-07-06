@@ -1,0 +1,5 @@
+absl_examine_stack_autogen/timestamp: \
+	/home/azure/AzureNexus/abseil-cpp/absl/debugging/CMakeLists.txt \
+	/home/azure/AzureNexus/abseil-cpp/absl/debugging/internal/examine_stack.cc \
+	/home/azure/AzureNexus/abseil-cpp/absl/debugging/internal/examine_stack.h \
+	/home/azure/Qt/Tools/CMake/bin/cmake

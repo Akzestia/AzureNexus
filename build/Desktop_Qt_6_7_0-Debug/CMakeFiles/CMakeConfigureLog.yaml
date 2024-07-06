@@ -308,3 +308,71 @@ events:
         
       exitCode: 0
 ...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/azure/Qt/Tools/CMake/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/home/azure/Qt/Tools/CMake/share/cmake-3.29/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "abseil-cpp/CMake/AbseilDll.cmake:699 (check_cxx_source_compiles)"
+      - "abseil-cpp/CMakeLists.txt:97 (include)"
+    checks:
+      - "Performing Test ABSL_INTERNAL_AT_LEAST_CXX17"
+    directories:
+      source: "/home/azure/AzureNexus/build/Desktop_Qt_6_7_0-Debug/CMakeFiles/CMakeScratch/TryCompile-jpsRqU"
+      binary: "/home/azure/AzureNexus/build/Desktop_Qt_6_7_0-Debug/CMakeFiles/CMakeScratch/TryCompile-jpsRqU"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/usr/bin/clang-scan-deps"
+      CMAKE_CXX_FLAGS: "-DQT_QML_DEBUG"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6;/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6/3rdparty/kwin;/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6;/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6/3rdparty/kwin;/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6;/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6/3rdparty/kwin;/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6;/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6/3rdparty/kwin;/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6;/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6/3rdparty/kwin;/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6;/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6/3rdparty/kwin;/home/azure/AzureNexus/abseil-cpp/CMake;/home/azure/AzureNexus/abseil-cpp/absl/copts"
+    buildResult:
+      variable: "ABSL_INTERNAL_AT_LEAST_CXX17"
+      cached: true
+      stdout: |
+        Change Dir: '/home/azure/AzureNexus/build/Desktop_Qt_6_7_0-Debug/CMakeFiles/CMakeScratch/TryCompile-jpsRqU'
+        
+        Run Build Command(s): /usr/bin/ninja -v cmTC_6c9dc
+        [1/2] /usr/bin/clang++ -DABSL_INTERNAL_AT_LEAST_CXX17  -DQT_QML_DEBUG  -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_6c9dc.dir/src.cxx.o -MF CMakeFiles/cmTC_6c9dc.dir/src.cxx.o.d -o CMakeFiles/cmTC_6c9dc.dir/src.cxx.o -c /home/azure/AzureNexus/build/Desktop_Qt_6_7_0-Debug/CMakeFiles/CMakeScratch/TryCompile-jpsRqU/src.cxx
+        [2/2] : && /usr/bin/clang++ -DQT_QML_DEBUG  CMakeFiles/cmTC_6c9dc.dir/src.cxx.o -o cmTC_6c9dc   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/azure/Qt/Tools/CMake/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/home/azure/Qt/Tools/CMake/share/cmake-3.29/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "abseil-cpp/CMake/AbseilDll.cmake:712 (check_cxx_source_compiles)"
+      - "abseil-cpp/CMakeLists.txt:97 (include)"
+    checks:
+      - "Performing Test ABSL_INTERNAL_AT_LEAST_CXX20"
+    directories:
+      source: "/home/azure/AzureNexus/build/Desktop_Qt_6_7_0-Debug/CMakeFiles/CMakeScratch/TryCompile-fKK2qe"
+      binary: "/home/azure/AzureNexus/build/Desktop_Qt_6_7_0-Debug/CMakeFiles/CMakeScratch/TryCompile-fKK2qe"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/usr/bin/clang-scan-deps"
+      CMAKE_CXX_FLAGS: "-DQT_QML_DEBUG"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6;/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6/3rdparty/kwin;/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6;/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6/3rdparty/kwin;/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6;/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6/3rdparty/kwin;/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6;/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6/3rdparty/kwin;/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6;/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6/3rdparty/kwin;/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6;/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;/home/azure/Qt/6.7.1/gcc_64/lib/cmake/Qt6/3rdparty/kwin;/home/azure/AzureNexus/abseil-cpp/CMake;/home/azure/AzureNexus/abseil-cpp/absl/copts"
+    buildResult:
+      variable: "ABSL_INTERNAL_AT_LEAST_CXX20"
+      cached: true
+      stdout: |
+        Change Dir: '/home/azure/AzureNexus/build/Desktop_Qt_6_7_0-Debug/CMakeFiles/CMakeScratch/TryCompile-fKK2qe'
+        
+        Run Build Command(s): /usr/bin/ninja -v cmTC_8ba08
+        [1/2] /usr/bin/clang++ -DABSL_INTERNAL_AT_LEAST_CXX20  -DQT_QML_DEBUG  -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_8ba08.dir/src.cxx.o -MF CMakeFiles/cmTC_8ba08.dir/src.cxx.o.d -o CMakeFiles/cmTC_8ba08.dir/src.cxx.o -c /home/azure/AzureNexus/build/Desktop_Qt_6_7_0-Debug/CMakeFiles/CMakeScratch/TryCompile-fKK2qe/src.cxx
+        \x1b[31mFAILED: \x1b[0mCMakeFiles/cmTC_8ba08.dir/src.cxx.o 
+        /usr/bin/clang++ -DABSL_INTERNAL_AT_LEAST_CXX20  -DQT_QML_DEBUG  -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_8ba08.dir/src.cxx.o -MF CMakeFiles/cmTC_8ba08.dir/src.cxx.o.d -o CMakeFiles/cmTC_8ba08.dir/src.cxx.o -c /home/azure/AzureNexus/build/Desktop_Qt_6_7_0-Debug/CMakeFiles/CMakeScratch/TryCompile-fKK2qe/src.cxx
+        \x1b[1m/home/azure/AzureNexus/build/Desktop_Qt_6_7_0-Debug/CMakeFiles/CMakeScratch/TryCompile-fKK2qe/src.cxx:6:4: \x1b[0m\x1b[0;1;31merror: \x1b[0m\x1b[1m"The compiler defaults or is configured for C++ < 20"\x1b[0m
+            6 | #  error "The compiler defaults or is configured for C++ < 20"\x1b[0m
+              | \x1b[0;1;32m   ^
+        \x1b[0m1 error generated.
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+...
