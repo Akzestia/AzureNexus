@@ -1,0 +1,58 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"abseil-cpp/absl/time/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 0,
+			"id" : "absl_raw_logging_internal::@75832566c74ae67f1846"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "absl_base::@75832566c74ae67f1846"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "absl_int128::@35227d1743c50db2a020"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "absl_strings::@a4cc995c3473953680d9"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "absl_civil_time::@5957f09260692b46a445"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "absl_time_zone::@5957f09260692b46a445"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "Abseil"
+	},
+	"id" : "absl_time_autogen_timestamp_deps::@5957f09260692b46a445",
+	"isGeneratorProvided" : true,
+	"name" : "absl_time_autogen_timestamp_deps",
+	"paths" : 
+	{
+		"build" : "abseil-cpp/absl/time",
+		"source" : "abseil-cpp/absl/time"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

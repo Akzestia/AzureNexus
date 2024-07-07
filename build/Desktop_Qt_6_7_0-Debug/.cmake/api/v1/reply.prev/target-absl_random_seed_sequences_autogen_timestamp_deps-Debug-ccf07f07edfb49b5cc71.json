@@ -1,0 +1,50 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"abseil-cpp/absl/random/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 0,
+			"id" : "absl_random_seed_gen_exception::@6806f2205fdb956db665"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "absl_random_internal_seed_material::@6806f2205fdb956db665"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "absl_random_internal_pool_urbg::@6806f2205fdb956db665"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "absl_string_view::@a4cc995c3473953680d9"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "Abseil/internal"
+	},
+	"id" : "absl_random_seed_sequences_autogen_timestamp_deps::@6806f2205fdb956db665",
+	"isGeneratorProvided" : true,
+	"name" : "absl_random_seed_sequences_autogen_timestamp_deps",
+	"paths" : 
+	{
+		"build" : "abseil-cpp/absl/random",
+		"source" : "abseil-cpp/absl/random"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

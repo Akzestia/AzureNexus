@@ -75,7 +75,6 @@ target_link_libraries(appAzureNexus PRIVATE
     Qt6::Widgets
     Qt6::WaylandCompositor
     Qt6::Svg
-    ${CMAKE_CURRENT_SOURCE_DIR}/appAzureNexus/MsQuic/bin/libmsquic.so
     absl_log_internal_check_op
     absl_log_internal_message
     absl_cord
@@ -85,6 +84,27 @@ target_link_libraries(appAzureNexus PRIVATE
     lua
     pqxx
 )
+# Conditionally link MsQuic library based on the platform and architecture
+if (WIN32)
+    if (CMAKE_SYSTEM_PROCESSOR STREQUAL "x86_64")
+        message(STATUS "Linking x64 MsQuic library for Windows")
+        target_link_libraries(appAzureNexus PRIVATE
+            ${CMAKE_CURRENT_SOURCE_DIR}/MsQuic/Win_x64/bin/msquic.dll
+        )
+    elseif (CMAKE_SYSTEM_PROCESSOR STREQUAL "ARM" OR CMAKE_SYSTEM_PROCESSOR STREQUAL "ARM64")
+        message(STATUS "Linking ARM MsQuic library for Windows")
+        target_link_libraries(appAzureNexus PRIVATE
+            ${CMAKE_CURRENT_SOURCE_DIR}/MsQuic/Win_arm64/bin/msquic.dll
+        )
+    else()
+        message(FATAL_ERROR "Unsupported Windows architecture: ${CMAKE_SYSTEM_PROCESSOR}")
+    endif()
+elseif (UNIX AND NOT APPLE)
+    message(STATUS "Linking MsQuic library for Linux")
+    target_link_libraries(appAzureNexus PRIVATE
+        ${CMAKE_CURRENT_SOURCE_DIR}/MsQuic/Linux_x64/bin/libmsquic.so
+    )
+endif()
 
 include(GNUInstallDirs)
 install(TARGETS appAzureNexus

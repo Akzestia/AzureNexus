@@ -1,0 +1,75 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"abseil-cpp/absl/synchronization/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "absl_graphcycles_internal_autogen_timestamp_deps::@521f103004ddf07c77e4"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "Abseil/internal"
+	},
+	"id" : "absl_graphcycles_internal_autogen::@521f103004ddf07c77e4",
+	"isGeneratorProvided" : true,
+	"name" : "absl_graphcycles_internal_autogen",
+	"paths" : 
+	{
+		"build" : "abseil-cpp/absl/synchronization",
+		"source" : "abseil-cpp/absl/synchronization"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_0-Debug/abseil-cpp/absl/synchronization/CMakeFiles/absl_graphcycles_internal_autogen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_0-Debug/abseil-cpp/absl/synchronization/CMakeFiles/absl_graphcycles_internal_autogen.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_0-Debug/abseil-cpp/absl/synchronization/absl_graphcycles_internal_autogen/timestamp.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

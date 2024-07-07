@@ -30,7 +30,7 @@ ApplicationWindow {
 
         Text {
             color: "white"
-            text: qsTr("Sign in")
+            text: qsTr("Sign in こんにちは")
             Layout.alignment: Qt.AlignHCenter | Qt.AlignVCenter
             font.pixelSize: 20
             Layout.topMargin: 50
@@ -51,7 +51,7 @@ ApplicationWindow {
             background: Rectangle {
                 anchors.fill: parent
                 radius: 10
-                color: "transparent"
+                color: "#101012"
             }
 
             Layout.alignment: Qt.AlignHCenter | Qt.AlignVCenter
@@ -74,7 +74,7 @@ ApplicationWindow {
             background: Rectangle {
                 anchors.fill: parent
                 radius: 10
-                color: "transparent"
+                color: "#101012"
             }
 
             Layout.alignment: Qt.AlignHCenter | Qt.AlignVCenter

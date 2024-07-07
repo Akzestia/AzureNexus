@@ -1,0 +1,75 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"abseil-cpp/absl/numeric/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "absl_int128_autogen_timestamp_deps::@35227d1743c50db2a020"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "Abseil"
+	},
+	"id" : "absl_int128_autogen::@35227d1743c50db2a020",
+	"isGeneratorProvided" : true,
+	"name" : "absl_int128_autogen",
+	"paths" : 
+	{
+		"build" : "abseil-cpp/absl/numeric",
+		"source" : "abseil-cpp/absl/numeric"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_0-Debug/abseil-cpp/absl/numeric/CMakeFiles/absl_int128_autogen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_0-Debug/abseil-cpp/absl/numeric/CMakeFiles/absl_int128_autogen.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_0-Debug/abseil-cpp/absl/numeric/absl_int128_autogen/timestamp.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

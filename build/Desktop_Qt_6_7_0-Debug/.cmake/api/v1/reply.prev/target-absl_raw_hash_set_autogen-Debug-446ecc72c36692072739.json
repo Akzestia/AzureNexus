@@ -1,0 +1,75 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"abseil-cpp/absl/container/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "absl_raw_hash_set_autogen_timestamp_deps::@38979ed14ab5174a6c5b"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "Abseil"
+	},
+	"id" : "absl_raw_hash_set_autogen::@38979ed14ab5174a6c5b",
+	"isGeneratorProvided" : true,
+	"name" : "absl_raw_hash_set_autogen",
+	"paths" : 
+	{
+		"build" : "abseil-cpp/absl/container",
+		"source" : "abseil-cpp/absl/container"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_0-Debug/abseil-cpp/absl/container/CMakeFiles/absl_raw_hash_set_autogen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_0-Debug/abseil-cpp/absl/container/CMakeFiles/absl_raw_hash_set_autogen.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_0-Debug/abseil-cpp/absl/container/absl_raw_hash_set_autogen/timestamp.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

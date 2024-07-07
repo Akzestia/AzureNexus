@@ -1,0 +1,38 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"abseil-cpp/absl/crc/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 0,
+			"id" : "absl_base::@75832566c74ae67f1846"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "Abseil/internal"
+	},
+	"id" : "absl_crc_cpu_detect_autogen_timestamp_deps::@3fa5915c0183396e7356",
+	"isGeneratorProvided" : true,
+	"name" : "absl_crc_cpu_detect_autogen_timestamp_deps",
+	"paths" : 
+	{
+		"build" : "abseil-cpp/absl/crc",
+		"source" : "abseil-cpp/absl/crc"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

@@ -59,7 +59,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/appAzureNexus")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/appAzureNexus"
-         OLD_RPATH "/home/azure/Qt/6.7.1/gcc_64/lib:/home/azure/AzureNexus/appAzureNexus/MsQuic/bin:"
+         OLD_RPATH "/home/azure/Qt/6.7.1/gcc_64/lib:/home/azure/AzureNexus/MsQuic/Linux_x64/bin:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/appAzureNexus")

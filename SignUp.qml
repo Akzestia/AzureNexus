@@ -52,7 +52,7 @@ ApplicationWindow {
             background: Rectangle {
                 anchors.fill: parent
                 radius: 10
-                color: "transparent"
+                color: "#101012"
             }
 
             Layout.alignment: Qt.AlignHCenter | Qt.AlignVCenter
@@ -73,7 +73,7 @@ ApplicationWindow {
             background: Rectangle {
                 anchors.fill: parent
                 radius: 10
-                color: "transparent"
+                color: "#101012"
             }
 
             Layout.alignment: Qt.AlignHCenter | Qt.AlignVCenter
@@ -96,7 +96,7 @@ ApplicationWindow {
             background: Rectangle {
                 anchors.fill: parent
                 radius: 10
-                color: "transparent"
+                color: "#101012"
             }
 
             Layout.alignment: Qt.AlignHCenter | Qt.AlignVCenter

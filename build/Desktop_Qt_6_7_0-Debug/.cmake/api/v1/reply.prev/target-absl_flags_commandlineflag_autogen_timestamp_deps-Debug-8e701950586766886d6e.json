@@ -1,0 +1,42 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"abseil-cpp/absl/flags/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 0,
+			"id" : "absl_flags_commandlineflag_internal::@46d3d334a885d99aa2ab"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "absl_strings::@a4cc995c3473953680d9"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "Abseil/internal"
+	},
+	"id" : "absl_flags_commandlineflag_autogen_timestamp_deps::@46d3d334a885d99aa2ab",
+	"isGeneratorProvided" : true,
+	"name" : "absl_flags_commandlineflag_autogen_timestamp_deps",
+	"paths" : 
+	{
+		"build" : "abseil-cpp/absl/flags",
+		"source" : "abseil-cpp/absl/flags"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

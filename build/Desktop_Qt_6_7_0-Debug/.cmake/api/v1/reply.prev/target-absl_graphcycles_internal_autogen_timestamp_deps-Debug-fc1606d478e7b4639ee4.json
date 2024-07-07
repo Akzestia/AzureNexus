@@ -1,0 +1,46 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"abseil-cpp/absl/synchronization/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 0,
+			"id" : "absl_raw_logging_internal::@75832566c74ae67f1846"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "absl_malloc_internal::@75832566c74ae67f1846"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "absl_base::@75832566c74ae67f1846"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "Abseil/internal"
+	},
+	"id" : "absl_graphcycles_internal_autogen_timestamp_deps::@521f103004ddf07c77e4",
+	"isGeneratorProvided" : true,
+	"name" : "absl_graphcycles_internal_autogen_timestamp_deps",
+	"paths" : 
+	{
+		"build" : "abseil-cpp/absl/synchronization",
+		"source" : "abseil-cpp/absl/synchronization"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

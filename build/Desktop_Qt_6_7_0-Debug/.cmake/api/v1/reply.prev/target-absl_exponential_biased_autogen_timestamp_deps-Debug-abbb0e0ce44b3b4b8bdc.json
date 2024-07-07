@@ -1,0 +1,31 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"abseil-cpp/absl/profiling/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"folder" : 
+	{
+		"name" : "Abseil/internal"
+	},
+	"id" : "absl_exponential_biased_autogen_timestamp_deps::@32e96278b207b6e80fe8",
+	"isGeneratorProvided" : true,
+	"name" : "absl_exponential_biased_autogen_timestamp_deps",
+	"paths" : 
+	{
+		"build" : "abseil-cpp/absl/profiling",
+		"source" : "abseil-cpp/absl/profiling"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

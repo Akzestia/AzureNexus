@@ -1,0 +1,38 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"abseil-cpp/absl/hash/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 0,
+			"id" : "absl_int128::@35227d1743c50db2a020"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "Abseil/internal"
+	},
+	"id" : "absl_low_level_hash_autogen_timestamp_deps::@c99ffac11d44b2bb9e1e",
+	"isGeneratorProvided" : true,
+	"name" : "absl_low_level_hash_autogen_timestamp_deps",
+	"paths" : 
+	{
+		"build" : "abseil-cpp/absl/hash",
+		"source" : "abseil-cpp/absl/hash"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

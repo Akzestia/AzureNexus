@@ -1,0 +1,38 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"abseil-cpp/absl/random/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 0,
+			"id" : "absl_random_internal_platform::@6806f2205fdb956db665"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "Abseil/internal"
+	},
+	"id" : "absl_random_internal_randen_hwaes_impl_autogen_timestamp_deps::@6806f2205fdb956db665",
+	"isGeneratorProvided" : true,
+	"name" : "absl_random_internal_randen_hwaes_impl_autogen_timestamp_deps",
+	"paths" : 
+	{
+		"build" : "abseil-cpp/absl/random",
+		"source" : "abseil-cpp/absl/random"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}
