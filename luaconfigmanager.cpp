@@ -2,15 +2,27 @@
 
 LuaConfigManager::LuaConfigManager(QObject *parent)
     : QObject(parent)
-{}
+{
+    L = luaL_newstate();
+    luaL_openlibs(L);
+
+    fileWatcher = new QFileSystemWatcher(this);
+    fileWatcher->addPath("./.conf/conf.lua");
+    connect(fileWatcher, &QFileSystemWatcher::fileChanged, this, &LuaConfigManager::fileChanged);
+
+    loadLuaConfig();
+
+    moveToThread(&workerThread);
+    workerThread.start();
+}
 
 void LuaConfigManager::updateConfigField(const QVariantMap &updates)
 {
     lua_State *L = luaL_newstate();
     luaL_openlibs(L);
 
-    if (luaL_dofile(L, "./.conf/conf.dispatch.lua") != LUA_OK) {
-        std::cerr << "Failed to load conf.dispatch.lua: " << lua_tostring(L, -1) << std::endl;
+    if (luaL_dofile(L, "./.conf/conf.lua") != LUA_OK) {
+        std::cerr << "Failed to load conf.lua: " << lua_tostring(L, -1) << std::endl;
         lua_close(L);
         return;
     }
@@ -34,4 +46,31 @@ void LuaConfigManager::updateConfigField(const QVariantMap &updates)
     }
 
     lua_close(L);
+}
+
+void LuaConfigManager::loadLuaConfig()
+{
+    if (luaL_dofile(L, "./.conf/conf.lua") != LUA_OK) {
+        std::cerr << "Failed to load conf.lua: " << lua_tostring(L, -1) << std::endl;
+        return;
+    }
+}
+
+void LuaConfigManager::fileChanged(const QString &path)
+{
+    Q_UNUSED(path);
+
+    QVariantMap updates;
+    loadLuaConfig();
+
+    emit configUpdated(updates);
+}
+
+LuaConfigManager::~LuaConfigManager()
+{
+    delete fileWatcher;
+    lua_close(L);
+
+    workerThread.quit();
+    workerThread.wait();
 }

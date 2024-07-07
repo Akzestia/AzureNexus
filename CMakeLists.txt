@@ -11,6 +11,7 @@ find_package(Qt6 REQUIRED COMPONENTS Widgets)
 find_package(Qt6 REQUIRED COMPONENTS WaylandCompositor)
 find_package(Qt6 REQUIRED COMPONENTS Svg)
 find_package(Qt6 REQUIRED COMPONENTS LinguistTools)
+find_package(Qt6 REQUIRED COMPONENTS Core)
 
 add_subdirectory(abseil-cpp)
 
@@ -76,6 +77,7 @@ target_link_libraries(appAzureNexus PRIVATE
     Qt6::Widgets
     Qt6::WaylandCompositor
     Qt6::Svg
+    Qt6::Core
     absl_log_internal_check_op
     absl_log_internal_message
     absl_cord

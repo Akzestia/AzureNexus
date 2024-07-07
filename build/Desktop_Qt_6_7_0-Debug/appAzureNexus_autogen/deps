@@ -182,6 +182,7 @@ appAzureNexus_autogen/timestamp: \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/QDebug \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/QEvent \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/QFile \
+	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/QFileSystemWatcher \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/QList \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/QLoggingCategory \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/QMap \
@@ -194,6 +195,7 @@ appAzureNexus_autogen/timestamp: \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/QSize \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/QSizeF \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/QString \
+	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/QThread \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/QTimer \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/QUrl \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/QVariant \
@@ -247,6 +249,7 @@ appAzureNexus_autogen/timestamp: \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/qfile.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/qfiledevice.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/qfileinfo.h \
+	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/qfilesystemwatcher.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/qflags.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/qfloat16.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/qforeach.h \
@@ -322,6 +325,7 @@ appAzureNexus_autogen/timestamp: \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/qtdeprecationmarkers.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/qtenvironmentvariables.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/qtextstream.h \
+	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/qthread.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/qtimer.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/qtimezone.h \
 	/home/azure/Qt/6.7.1/gcc_64/include/QtCore/qtmetamacros.h \
@@ -1332,6 +1336,7 @@ appAzureNexus_autogen/timestamp: \
 	/usr/include/c++/14.1.1/bits/allocated_ptr.h \
 	/usr/include/c++/14.1.1/bits/allocator.h \
 	/usr/include/c++/14.1.1/bits/atomic_base.h \
+	/usr/include/c++/14.1.1/bits/atomic_futex.h \
 	/usr/include/c++/14.1.1/bits/atomic_lockfree_defines.h \
 	/usr/include/c++/14.1.1/bits/basic_ios.h \
 	/usr/include/c++/14.1.1/bits/basic_ios.tcc \
@@ -1390,6 +1395,8 @@ appAzureNexus_autogen/timestamp: \
 	/usr/include/c++/14.1.1/bits/sstream.tcc \
 	/usr/include/c++/14.1.1/bits/std_abs.h \
 	/usr/include/c++/14.1.1/bits/std_function.h \
+	/usr/include/c++/14.1.1/bits/std_mutex.h \
+	/usr/include/c++/14.1.1/bits/std_thread.h \
 	/usr/include/c++/14.1.1/bits/stl_algo.h \
 	/usr/include/c++/14.1.1/bits/stl_algobase.h \
 	/usr/include/c++/14.1.1/bits/stl_bvector.h \
@@ -1419,6 +1426,7 @@ appAzureNexus_autogen/timestamp: \
 	/usr/include/c++/14.1.1/bits/string_view.tcc \
 	/usr/include/c++/14.1.1/bits/stringfwd.h \
 	/usr/include/c++/14.1.1/bits/uniform_int_dist.h \
+	/usr/include/c++/14.1.1/bits/unique_lock.h \
 	/usr/include/c++/14.1.1/bits/unique_ptr.h \
 	/usr/include/c++/14.1.1/bits/unordered_map.h \
 	/usr/include/c++/14.1.1/bits/unordered_set.h \
@@ -1438,6 +1446,7 @@ appAzureNexus_autogen/timestamp: \
 	/usr/include/c++/14.1.1/cmath \
 	/usr/include/c++/14.1.1/compare \
 	/usr/include/c++/14.1.1/concepts \
+	/usr/include/c++/14.1.1/condition_variable \
 	/usr/include/c++/14.1.1/cstddef \
 	/usr/include/c++/14.1.1/cstdint \
 	/usr/include/c++/14.1.1/cstdio \
@@ -1460,6 +1469,7 @@ appAzureNexus_autogen/timestamp: \
 	/usr/include/c++/14.1.1/filesystem \
 	/usr/include/c++/14.1.1/forward_list \
 	/usr/include/c++/14.1.1/functional \
+	/usr/include/c++/14.1.1/future \
 	/usr/include/c++/14.1.1/initializer_list \
 	/usr/include/c++/14.1.1/ios \
 	/usr/include/c++/14.1.1/iosfwd \
@@ -1470,6 +1480,7 @@ appAzureNexus_autogen/timestamp: \
 	/usr/include/c++/14.1.1/list \
 	/usr/include/c++/14.1.1/map \
 	/usr/include/c++/14.1.1/memory \
+	/usr/include/c++/14.1.1/mutex \
 	/usr/include/c++/14.1.1/new \
 	/usr/include/c++/14.1.1/numeric \
 	/usr/include/c++/14.1.1/optional \
@@ -1570,10 +1581,15 @@ appAzureNexus_autogen/timestamp: \
 	/usr/include/google/protobuf/thread_safe_arena.h \
 	/usr/include/google/protobuf/unknown_field_set.h \
 	/usr/include/google/protobuf/wire_format_lite.h \
+	/usr/include/lauxlib.h \
 	/usr/include/limits.h \
 	/usr/include/linux/errno.h \
 	/usr/include/linux/limits.h \
 	/usr/include/locale.h \
+	/usr/include/lua.h \
+	/usr/include/lua.hpp \
+	/usr/include/luaconf.h \
+	/usr/include/lualib.h \
 	/usr/include/pthread.h \
 	/usr/include/sched.h \
 	/usr/include/signal.h \

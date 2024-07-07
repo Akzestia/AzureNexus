@@ -1,4 +1,5 @@
 /home/azure/AzureNexus/build/Desktop_Qt_6_7_0-Debug/appAzureNexus_autogen/include/../EWIEGA46WW/moc_ColorsConfig.cpp.json
+/home/azure/AzureNexus/build/Desktop_Qt_6_7_0-Debug/appAzureNexus_autogen/include/../EWIEGA46WW/moc_luaconfigmanager.cpp.json
 /home/azure/AzureNexus/build/Desktop_Qt_6_7_0-Debug/appAzureNexus_autogen/include/../EWIEGA46WW/moc_message.cpp.json
 /home/azure/AzureNexus/build/Desktop_Qt_6_7_0-Debug/appAzureNexus_autogen/include/../EWIEGA46WW/moc_quicclientwrapper.cpp.json
 /home/azure/AzureNexus/build/Desktop_Qt_6_7_0-Debug/appAzureNexus_autogen/include/../EWIEGA46WW/moc_roundedimage.cpp.json

@@ -1,0 +1,17 @@
+{
+    "classes": [
+        {
+            "className": "LuaConfigManager",
+            "object": true,
+            "qualifiedClassName": "LuaConfigManager",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "luaconfigmanager.h",
+    "outputRevision": 68
+}
