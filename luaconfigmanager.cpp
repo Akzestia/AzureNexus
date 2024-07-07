@@ -7,7 +7,7 @@ LuaConfigManager::LuaConfigManager(QObject *parent)
     luaL_openlibs(L);
 
     fileWatcher = new QFileSystemWatcher(this);
-    fileWatcher->addPath("./.conf/conf.lua");
+    fileWatcher->addPath("conf/conf.lua");
     connect(fileWatcher, &QFileSystemWatcher::fileChanged, this, &LuaConfigManager::fileChanged);
 
     loadLuaConfig();
@@ -21,7 +21,7 @@ void LuaConfigManager::updateConfigField(const QVariantMap &updates)
     lua_State *L = luaL_newstate();
     luaL_openlibs(L);
 
-    if (luaL_dofile(L, "./.conf/conf.lua") != LUA_OK) {
+    if (luaL_dofile(L, "conf/conf.lua") != LUA_OK) {
         std::cerr << "Failed to load conf.lua: " << lua_tostring(L, -1) << std::endl;
         lua_close(L);
         return;
@@ -50,7 +50,7 @@ void LuaConfigManager::updateConfigField(const QVariantMap &updates)
 
 void LuaConfigManager::loadLuaConfig()
 {
-    if (luaL_dofile(L, "./.conf/conf.lua") != LUA_OK) {
+    if (luaL_dofile(L, "conf/conf.lua") != LUA_OK) {
         std::cerr << "Failed to load conf.lua: " << lua_tostring(L, -1) << std::endl;
         return;
     }

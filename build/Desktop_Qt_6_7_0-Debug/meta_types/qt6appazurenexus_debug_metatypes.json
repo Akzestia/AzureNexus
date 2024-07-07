@@ -115,6 +115,32 @@
                 "className": "LuaConfigManager",
                 "object": true,
                 "qualifiedClassName": "LuaConfigManager",
+                "signals": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "updates",
+                                "type": "QVariantMap"
+                            }
+                        ],
+                        "name": "configUpdated",
+                        "returnType": "void"
+                    }
+                ],
+                "slots": [
+                    {
+                        "access": "private",
+                        "arguments": [
+                            {
+                                "name": "path",
+                                "type": "QString"
+                            }
+                        ],
+                        "name": "fileChanged",
+                        "returnType": "void"
+                    }
+                ],
                 "superClasses": [
                     {
                         "access": "public",
