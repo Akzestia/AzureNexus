@@ -1,6 +1,8 @@
 #include "luaconfigmanager.h"
 
-LuaConfigManager::LuaConfigManager() {}
+LuaConfigManager::LuaConfigManager(QObject *parent)
+    : QObject(parent)
+{}
 
 void LuaConfigManager::updateConfigField(const QVariantMap &updates)
 {

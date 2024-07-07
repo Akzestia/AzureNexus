@@ -128,6 +128,11 @@ ApplicationWindow {
                 hoverEnabled: true
                 id: login_btn_area
                 anchors.fill: parent
+
+                onClicked: {
+                    QCwrapper.StartSignUpRequest("Akzestia",
+                                                 "akzestia@gmail.com", "1234")
+                }
             }
         }
 

@@ -129,6 +129,41 @@
     {
         "classes": [
             {
+                "className": "QuicClientWrapper",
+                "methods": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "type": "QString"
+                            },
+                            {
+                                "type": "QString"
+                            },
+                            {
+                                "type": "QString"
+                            }
+                        ],
+                        "name": "StartSignUpRequest",
+                        "returnType": "void"
+                    }
+                ],
+                "object": true,
+                "qualifiedClassName": "QuicClientWrapper",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "quicclientwrapper.h",
+        "outputRevision": 68
+    },
+    {
+        "classes": [
+            {
                 "className": "RoundedImage",
                 "object": true,
                 "properties": [

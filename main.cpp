@@ -6,6 +6,7 @@
 #include <QWindow>
 #include "../Documents/GitHub/Linux-x64-HTTP3/client/QuicClient.h"
 #include "ColorsConfig.h"
+#include "quicclientwrapper.h"
 #include "roundedimage.h"
 #include "splashscreen.h"
 
@@ -40,8 +41,10 @@ int main(int argc, char *argv[])
 
     SplashScreen sp(&engine);
     ColorsConfig colorsConfig;
+    QuicClientWrapper QCwrapper;
 
     engine.rootContext()->setContextProperty("ColorsConfig", &colorsConfig);
+    engine.rootContext()->setContextProperty("QCwrapper", &QCwrapper);
     engine.rootContext()->setContextProperty("sp", &sp);
     engine.rootContext()->setContextProperty("screenWidth", screenGeometry.width());
     engine.rootContext()->setContextProperty("screenHeight", screenGeometry.height());

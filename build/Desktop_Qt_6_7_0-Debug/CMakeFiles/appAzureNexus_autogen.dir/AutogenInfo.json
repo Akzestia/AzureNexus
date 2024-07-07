@@ -1134,6 +1134,12 @@
 			null
 		],
 		[
+			"/home/azure/AzureNexus/quicclientwrapper.h",
+			"Mu",
+			"EWIEGA46WW/moc_quicclientwrapper.cpp",
+			null
+		],
+		[
 			"/home/azure/AzureNexus/roundedimage.h",
 			"Mu",
 			"EWIEGA46WW/moc_roundedimage.cpp",
@@ -1313,6 +1319,7 @@
 		[ "/home/azure/AzureNexus/luaconfigmanager.cpp", "Mu", null ],
 		[ "/home/azure/AzureNexus/main.cpp", "Mu", null ],
 		[ "/home/azure/AzureNexus/message.cpp", "Mu", null ],
+		[ "/home/azure/AzureNexus/quicclientwrapper.cpp", "Mu", null ],
 		[ "/home/azure/AzureNexus/roundedimage.cpp", "Mu", null ],
 		[ "/home/azure/AzureNexus/screencapture.cpp", "Mu", null ],
 		[ "/home/azure/AzureNexus/splashscreen.cpp", "Mu", null ],

@@ -54,6 +54,7 @@ qt_add_qml_module(appAzureNexus
     SOURCES ../Documents/GitHub/Linux-x64-HTTP3/proto/build/auth.pb.cc ../Documents/GitHub/Linux-x64-HTTP3/proto/build/user.pb.cc
     SOURCES ../Documents/GitHub/Linux-x64-HTTP3/proto/build/auth.pb.h ../Documents/GitHub/Linux-x64-HTTP3/proto/build/user.pb.h
     SOURCES ../Documents/GitHub/Linux-x64-HTTP3/proto/build/sign_in.pb.cc ../Documents/GitHub/Linux-x64-HTTP3/proto/build/sign_in.pb.h ../Documents/GitHub/Linux-x64-HTTP3/proto/build/sign_up.pb.cc ../Documents/GitHub/Linux-x64-HTTP3/proto/build/sign_up.pb.h
+    SOURCES quicclientwrapper.h quicclientwrapper.cpp
 )
 
 #SOURCES waylandscreencpature.h waylandscreencpature.cpp

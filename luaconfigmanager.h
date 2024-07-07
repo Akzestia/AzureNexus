@@ -1,14 +1,17 @@
 #ifndef LUACONFIGMANAGER_H
 #define LUACONFIGMANAGER_H
+#include <QObject>
 #include <QString>
 #include <QVariantMap>
 #include <iostream>
 #include <lua.hpp>
 
-class LuaConfigManager
+class LuaConfigManager : public QObject
 {
+    Q_OBJECT
+
 public:
-    LuaConfigManager();
+    explicit LuaConfigManager(QObject *parent = nullptr);
 
     static void updateConfigField(const QVariantMap &updates);
 };

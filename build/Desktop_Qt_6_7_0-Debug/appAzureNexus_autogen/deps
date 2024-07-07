@@ -1,6 +1,145 @@
 appAzureNexus_autogen/timestamp: \
 	/home/azure/AzureNexus/CMakeLists.txt \
 	/home/azure/AzureNexus/ColorsConfig.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/algorithm/algorithm.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/algorithm/container.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/base/attributes.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/base/call_once.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/base/casts.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/base/config.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/base/const_init.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/base/dynamic_annotations.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/base/internal/atomic_hook.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/base/internal/dynamic_annotations.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/base/internal/endian.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/base/internal/errno_saver.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/base/internal/identity.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/base/internal/inline_variable.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/base/internal/invoke.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/base/internal/low_level_alloc.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/base/internal/low_level_scheduling.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/base/internal/nullability_impl.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/base/internal/per_thread_tls.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/base/internal/raw_logging.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/base/internal/scheduling_mode.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/base/internal/spinlock.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/base/internal/spinlock_wait.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/base/internal/thread_identity.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/base/internal/throw_delegate.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/base/internal/tsan_mutex_interface.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/base/internal/unaligned_access.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/base/log_severity.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/base/macros.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/base/nullability.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/base/optimization.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/base/options.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/base/policy_checks.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/base/port.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/base/prefetch.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/base/thread_annotations.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/container/btree_map.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/container/fixed_array.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/container/flat_hash_map.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/container/hash_container_defaults.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/container/inlined_vector.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/container/internal/btree.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/container/internal/btree_container.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/container/internal/common.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/container/internal/common_policy_traits.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/container/internal/compressed_tuple.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/container/internal/container_memory.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/container/internal/hash_function_defaults.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/container/internal/hash_policy_traits.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/container/internal/hashtable_debug_hooks.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/container/internal/hashtablez_sampler.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/container/internal/inlined_vector.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/container/internal/layout.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/container/internal/raw_hash_map.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/container/internal/raw_hash_set.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/crc/crc32c.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/crc/internal/crc32_x86_arm_combined_simd.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/crc/internal/crc32c_inline.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/crc/internal/crc_cord_state.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/debugging/internal/demangle.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/functional/any_invocable.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/functional/function_ref.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/functional/internal/any_invocable.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/functional/internal/function_ref.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/hash/hash.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/hash/internal/city.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/hash/internal/hash.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/hash/internal/low_level_hash.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/log/absl_check.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/log/absl_log.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/log/absl_vlog_is_on.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/log/internal/check_impl.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/log/internal/check_op.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/log/internal/conditions.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/log/internal/config.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/log/internal/log_impl.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/log/internal/log_message.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/log/internal/nullguard.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/log/internal/nullstream.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/log/internal/strip.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/log/internal/vlog_config.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/log/internal/voidify.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/log/log_entry.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/log/log_sink.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/memory/memory.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/meta/type_traits.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/numeric/bits.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/numeric/int128.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/numeric/int128_have_intrinsic.inc \
+	/home/azure/AzureNexus/abseil-cpp/absl/numeric/internal/bits.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/profiling/internal/sample_recorder.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/strings/cord.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/strings/cord_analysis.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/strings/cord_buffer.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/strings/has_absl_stringify.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/strings/internal/cord_data_edge.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/strings/internal/cord_internal.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/strings/internal/cord_rep_btree.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/strings/internal/cord_rep_btree_navigator.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/strings/internal/cord_rep_btree_reader.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/strings/internal/cord_rep_crc.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/strings/internal/cord_rep_flat.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/strings/internal/cordz_functions.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/strings/internal/cordz_handle.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/strings/internal/cordz_info.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/strings/internal/cordz_statistics.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/strings/internal/cordz_update_scope.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/strings/internal/cordz_update_tracker.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/strings/internal/resize_uninitialized.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/strings/internal/str_format/arg.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/strings/internal/str_format/bind.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/strings/internal/str_format/checker.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/strings/internal/str_format/constexpr_parser.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/strings/internal/str_format/extension.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/strings/internal/str_format/output.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/strings/internal/str_format/parser.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/strings/internal/string_constant.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/strings/internal/stringify_sink.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/strings/numbers.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/strings/str_cat.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/strings/str_format.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/strings/string_view.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/synchronization/internal/create_thread_identity.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/synchronization/internal/kernel_timeout.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/synchronization/internal/per_thread_sem.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/synchronization/mutex.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/time/civil_time.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/time/clock.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/time/internal/cctz/include/cctz/civil_time.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/time/internal/cctz/include/cctz/civil_time_detail.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/time/internal/cctz/include/cctz/time_zone.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/time/time.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/types/compare.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/types/internal/span.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/types/optional.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/types/span.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/types/variant.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/utility/internal/if_constexpr.h \
+	/home/azure/AzureNexus/abseil-cpp/absl/utility/utility.h \
 	/home/azure/AzureNexus/build/Desktop_Qt_6_7_0-Debug/.qt/qml_imports/appAzureNexus_conf.cmake \
 	/home/azure/AzureNexus/build/Desktop_Qt_6_7_0-Debug/.qtc/package-manager/auto-setup.cmake \
 	/home/azure/AzureNexus/build/Desktop_Qt_6_7_0-Debug/CMakeFiles/3.29.3/CMakeCXXCompiler.cmake \
@@ -11,6 +150,8 @@ appAzureNexus_autogen/timestamp: \
 	/home/azure/AzureNexus/main.cpp \
 	/home/azure/AzureNexus/message.cpp \
 	/home/azure/AzureNexus/message.h \
+	/home/azure/AzureNexus/quicclientwrapper.cpp \
+	/home/azure/AzureNexus/quicclientwrapper.h \
 	/home/azure/AzureNexus/roundedimage.cpp \
 	/home/azure/AzureNexus/roundedimage.h \
 	/home/azure/AzureNexus/screencapture.cpp \
@@ -1175,8 +1316,10 @@ appAzureNexus_autogen/timestamp: \
 	/usr/include/bits/waitflags.h \
 	/usr/include/bits/waitstatus.h \
 	/usr/include/bits/wchar.h \
+	/usr/include/bits/wctype-wchar.h \
 	/usr/include/bits/wordsize.h \
 	/usr/include/bits/xopen_lim.h \
+	/usr/include/byteswap.h \
 	/usr/include/c++/14.1.1/algorithm \
 	/usr/include/c++/14.1.1/array \
 	/usr/include/c++/14.1.1/atomic \
@@ -1190,6 +1333,8 @@ appAzureNexus_autogen/timestamp: \
 	/usr/include/c++/14.1.1/bits/allocator.h \
 	/usr/include/c++/14.1.1/bits/atomic_base.h \
 	/usr/include/c++/14.1.1/bits/atomic_lockfree_defines.h \
+	/usr/include/c++/14.1.1/bits/basic_ios.h \
+	/usr/include/c++/14.1.1/bits/basic_ios.tcc \
 	/usr/include/c++/14.1.1/bits/basic_string.h \
 	/usr/include/c++/14.1.1/bits/basic_string.tcc \
 	/usr/include/c++/14.1.1/bits/char_traits.h \
@@ -1199,11 +1344,14 @@ appAzureNexus_autogen/timestamp: \
 	/usr/include/c++/14.1.1/bits/cpp_type_traits.h \
 	/usr/include/c++/14.1.1/bits/cxxabi_forced.h \
 	/usr/include/c++/14.1.1/bits/cxxabi_init_exception.h \
+	/usr/include/c++/14.1.1/bits/deque.tcc \
 	/usr/include/c++/14.1.1/bits/enable_special_members.h \
 	/usr/include/c++/14.1.1/bits/erase_if.h \
 	/usr/include/c++/14.1.1/bits/exception.h \
 	/usr/include/c++/14.1.1/bits/exception_defines.h \
 	/usr/include/c++/14.1.1/bits/exception_ptr.h \
+	/usr/include/c++/14.1.1/bits/forward_list.h \
+	/usr/include/c++/14.1.1/bits/forward_list.tcc \
 	/usr/include/c++/14.1.1/bits/functexcept.h \
 	/usr/include/c++/14.1.1/bits/functional_hash.h \
 	/usr/include/c++/14.1.1/bits/hash_bytes.h \
@@ -1211,9 +1359,12 @@ appAzureNexus_autogen/timestamp: \
 	/usr/include/c++/14.1.1/bits/hashtable_policy.h \
 	/usr/include/c++/14.1.1/bits/invoke.h \
 	/usr/include/c++/14.1.1/bits/ios_base.h \
+	/usr/include/c++/14.1.1/bits/istream.tcc \
 	/usr/include/c++/14.1.1/bits/list.tcc \
 	/usr/include/c++/14.1.1/bits/locale_classes.h \
 	/usr/include/c++/14.1.1/bits/locale_classes.tcc \
+	/usr/include/c++/14.1.1/bits/locale_facets.h \
+	/usr/include/c++/14.1.1/bits/locale_facets.tcc \
 	/usr/include/c++/14.1.1/bits/localefwd.h \
 	/usr/include/c++/14.1.1/bits/memory_resource.h \
 	/usr/include/c++/14.1.1/bits/memoryfwd.h \
@@ -1221,11 +1372,14 @@ appAzureNexus_autogen/timestamp: \
 	/usr/include/c++/14.1.1/bits/nested_exception.h \
 	/usr/include/c++/14.1.1/bits/new_allocator.h \
 	/usr/include/c++/14.1.1/bits/node_handle.h \
+	/usr/include/c++/14.1.1/bits/ostream.tcc \
 	/usr/include/c++/14.1.1/bits/ostream_insert.h \
 	/usr/include/c++/14.1.1/bits/parse_numbers.h \
 	/usr/include/c++/14.1.1/bits/postypes.h \
 	/usr/include/c++/14.1.1/bits/predefined_ops.h \
 	/usr/include/c++/14.1.1/bits/ptr_traits.h \
+	/usr/include/c++/14.1.1/bits/random.h \
+	/usr/include/c++/14.1.1/bits/random.tcc \
 	/usr/include/c++/14.1.1/bits/range_access.h \
 	/usr/include/c++/14.1.1/bits/refwrap.h \
 	/usr/include/c++/14.1.1/bits/requires_hosted.h \
@@ -1233,12 +1387,14 @@ appAzureNexus_autogen/timestamp: \
 	/usr/include/c++/14.1.1/bits/shared_ptr_atomic.h \
 	/usr/include/c++/14.1.1/bits/shared_ptr_base.h \
 	/usr/include/c++/14.1.1/bits/specfun.h \
+	/usr/include/c++/14.1.1/bits/sstream.tcc \
 	/usr/include/c++/14.1.1/bits/std_abs.h \
 	/usr/include/c++/14.1.1/bits/std_function.h \
 	/usr/include/c++/14.1.1/bits/stl_algo.h \
 	/usr/include/c++/14.1.1/bits/stl_algobase.h \
 	/usr/include/c++/14.1.1/bits/stl_bvector.h \
 	/usr/include/c++/14.1.1/bits/stl_construct.h \
+	/usr/include/c++/14.1.1/bits/stl_deque.h \
 	/usr/include/c++/14.1.1/bits/stl_function.h \
 	/usr/include/c++/14.1.1/bits/stl_heap.h \
 	/usr/include/c++/14.1.1/bits/stl_iterator.h \
@@ -1247,10 +1403,12 @@ appAzureNexus_autogen/timestamp: \
 	/usr/include/c++/14.1.1/bits/stl_list.h \
 	/usr/include/c++/14.1.1/bits/stl_map.h \
 	/usr/include/c++/14.1.1/bits/stl_multimap.h \
+	/usr/include/c++/14.1.1/bits/stl_multiset.h \
 	/usr/include/c++/14.1.1/bits/stl_numeric.h \
 	/usr/include/c++/14.1.1/bits/stl_pair.h \
 	/usr/include/c++/14.1.1/bits/stl_raw_storage_iter.h \
 	/usr/include/c++/14.1.1/bits/stl_relops.h \
+	/usr/include/c++/14.1.1/bits/stl_set.h \
 	/usr/include/c++/14.1.1/bits/stl_tempbuf.h \
 	/usr/include/c++/14.1.1/bits/stl_tree.h \
 	/usr/include/c++/14.1.1/bits/stl_uninitialized.h \
@@ -1263,14 +1421,18 @@ appAzureNexus_autogen/timestamp: \
 	/usr/include/c++/14.1.1/bits/uniform_int_dist.h \
 	/usr/include/c++/14.1.1/bits/unique_ptr.h \
 	/usr/include/c++/14.1.1/bits/unordered_map.h \
+	/usr/include/c++/14.1.1/bits/unordered_set.h \
 	/usr/include/c++/14.1.1/bits/uses_allocator.h \
 	/usr/include/c++/14.1.1/bits/uses_allocator_args.h \
 	/usr/include/c++/14.1.1/bits/utility.h \
 	/usr/include/c++/14.1.1/bits/vector.tcc \
 	/usr/include/c++/14.1.1/bits/version.h \
+	/usr/include/c++/14.1.1/bitset \
+	/usr/include/c++/14.1.1/cassert \
 	/usr/include/c++/14.1.1/cctype \
 	/usr/include/c++/14.1.1/cerrno \
 	/usr/include/c++/14.1.1/chrono \
+	/usr/include/c++/14.1.1/ciso646 \
 	/usr/include/c++/14.1.1/climits \
 	/usr/include/c++/14.1.1/clocale \
 	/usr/include/c++/14.1.1/cmath \
@@ -1283,8 +1445,10 @@ appAzureNexus_autogen/timestamp: \
 	/usr/include/c++/14.1.1/cstring \
 	/usr/include/c++/14.1.1/ctime \
 	/usr/include/c++/14.1.1/cwchar \
+	/usr/include/c++/14.1.1/cwctype \
 	/usr/include/c++/14.1.1/debug/assertions.h \
 	/usr/include/c++/14.1.1/debug/debug.h \
+	/usr/include/c++/14.1.1/deque \
 	/usr/include/c++/14.1.1/exception \
 	/usr/include/c++/14.1.1/ext/aligned_buffer.h \
 	/usr/include/c++/14.1.1/ext/alloc_traits.h \
@@ -1294,9 +1458,13 @@ appAzureNexus_autogen/timestamp: \
 	/usr/include/c++/14.1.1/ext/string_conversions.h \
 	/usr/include/c++/14.1.1/ext/type_traits.h \
 	/usr/include/c++/14.1.1/filesystem \
+	/usr/include/c++/14.1.1/forward_list \
 	/usr/include/c++/14.1.1/functional \
 	/usr/include/c++/14.1.1/initializer_list \
+	/usr/include/c++/14.1.1/ios \
 	/usr/include/c++/14.1.1/iosfwd \
+	/usr/include/c++/14.1.1/iostream \
+	/usr/include/c++/14.1.1/istream \
 	/usr/include/c++/14.1.1/iterator \
 	/usr/include/c++/14.1.1/limits \
 	/usr/include/c++/14.1.1/list \
@@ -1305,9 +1473,13 @@ appAzureNexus_autogen/timestamp: \
 	/usr/include/c++/14.1.1/new \
 	/usr/include/c++/14.1.1/numeric \
 	/usr/include/c++/14.1.1/optional \
+	/usr/include/c++/14.1.1/ostream \
 	/usr/include/c++/14.1.1/pstl/execution_defs.h \
 	/usr/include/c++/14.1.1/pstl/glue_numeric_defs.h \
+	/usr/include/c++/14.1.1/random \
 	/usr/include/c++/14.1.1/ratio \
+	/usr/include/c++/14.1.1/set \
+	/usr/include/c++/14.1.1/sstream \
 	/usr/include/c++/14.1.1/stdexcept \
 	/usr/include/c++/14.1.1/streambuf \
 	/usr/include/c++/14.1.1/string \
@@ -1329,6 +1501,7 @@ appAzureNexus_autogen/timestamp: \
 	/usr/include/c++/14.1.1/type_traits \
 	/usr/include/c++/14.1.1/typeinfo \
 	/usr/include/c++/14.1.1/unordered_map \
+	/usr/include/c++/14.1.1/unordered_set \
 	/usr/include/c++/14.1.1/utility \
 	/usr/include/c++/14.1.1/variant \
 	/usr/include/c++/14.1.1/vector \
@@ -1337,9 +1510,12 @@ appAzureNexus_autogen/timestamp: \
 	/usr/include/c++/14.1.1/x86_64-pc-linux-gnu/bits/c++config.h \
 	/usr/include/c++/14.1.1/x86_64-pc-linux-gnu/bits/c++locale.h \
 	/usr/include/c++/14.1.1/x86_64-pc-linux-gnu/bits/cpu_defines.h \
+	/usr/include/c++/14.1.1/x86_64-pc-linux-gnu/bits/ctype_base.h \
+	/usr/include/c++/14.1.1/x86_64-pc-linux-gnu/bits/ctype_inline.h \
 	/usr/include/c++/14.1.1/x86_64-pc-linux-gnu/bits/error_constants.h \
 	/usr/include/c++/14.1.1/x86_64-pc-linux-gnu/bits/gthr-default.h \
 	/usr/include/c++/14.1.1/x86_64-pc-linux-gnu/bits/gthr.h \
+	/usr/include/c++/14.1.1/x86_64-pc-linux-gnu/bits/opt_random.h \
 	/usr/include/c++/14.1.1/x86_64-pc-linux-gnu/bits/os_defines.h \
 	/usr/include/ctype.h \
 	/usr/include/endian.h \
@@ -1348,6 +1524,52 @@ appAzureNexus_autogen/timestamp: \
 	/usr/include/features.h \
 	/usr/include/gnu/stubs-64.h \
 	/usr/include/gnu/stubs.h \
+	/usr/include/google/protobuf/any.h \
+	/usr/include/google/protobuf/arena.h \
+	/usr/include/google/protobuf/arena_align.h \
+	/usr/include/google/protobuf/arena_allocation_policy.h \
+	/usr/include/google/protobuf/arena_cleanup.h \
+	/usr/include/google/protobuf/arenastring.h \
+	/usr/include/google/protobuf/arenaz_sampler.h \
+	/usr/include/google/protobuf/descriptor.h \
+	/usr/include/google/protobuf/descriptor_lite.h \
+	/usr/include/google/protobuf/endian.h \
+	/usr/include/google/protobuf/explicitly_constructed.h \
+	/usr/include/google/protobuf/extension_set.h \
+	/usr/include/google/protobuf/generated_enum_reflection.h \
+	/usr/include/google/protobuf/generated_enum_util.h \
+	/usr/include/google/protobuf/generated_message_reflection.h \
+	/usr/include/google/protobuf/generated_message_tctable_decl.h \
+	/usr/include/google/protobuf/generated_message_util.h \
+	/usr/include/google/protobuf/has_bits.h \
+	/usr/include/google/protobuf/implicit_weak_message.h \
+	/usr/include/google/protobuf/inlined_string_field.h \
+	/usr/include/google/protobuf/internal_visibility.h \
+	/usr/include/google/protobuf/io/coded_stream.h \
+	/usr/include/google/protobuf/io/zero_copy_stream.h \
+	/usr/include/google/protobuf/io/zero_copy_stream_impl_lite.h \
+	/usr/include/google/protobuf/map.h \
+	/usr/include/google/protobuf/map_type_handler.h \
+	/usr/include/google/protobuf/message.h \
+	/usr/include/google/protobuf/message_lite.h \
+	/usr/include/google/protobuf/metadata_lite.h \
+	/usr/include/google/protobuf/parse_context.h \
+	/usr/include/google/protobuf/port.h \
+	/usr/include/google/protobuf/port_def.inc \
+	/usr/include/google/protobuf/port_undef.inc \
+	/usr/include/google/protobuf/reflection.h \
+	/usr/include/google/protobuf/repeated_field.h \
+	/usr/include/google/protobuf/repeated_ptr_field.h \
+	/usr/include/google/protobuf/runtime_version.h \
+	/usr/include/google/protobuf/serial_arena.h \
+	/usr/include/google/protobuf/string_block.h \
+	/usr/include/google/protobuf/stubs/callback.h \
+	/usr/include/google/protobuf/stubs/common.h \
+	/usr/include/google/protobuf/stubs/platform_macros.h \
+	/usr/include/google/protobuf/stubs/port.h \
+	/usr/include/google/protobuf/thread_safe_arena.h \
+	/usr/include/google/protobuf/unknown_field_set.h \
+	/usr/include/google/protobuf/wire_format_lite.h \
 	/usr/include/limits.h \
 	/usr/include/linux/errno.h \
 	/usr/include/linux/limits.h \
@@ -1363,9 +1585,11 @@ appAzureNexus_autogen/timestamp: \
 	/usr/include/strings.h \
 	/usr/include/sys/cdefs.h \
 	/usr/include/sys/select.h \
+	/usr/include/sys/time.h \
 	/usr/include/sys/types.h \
 	/usr/include/sys/ucontext.h \
 	/usr/include/time.h \
 	/usr/include/unistd.h \
 	/usr/include/wchar.h \
+	/usr/include/wctype.h \
 	/home/azure/Qt/Tools/CMake/bin/cmake
