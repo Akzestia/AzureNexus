@@ -35,4 +35,5 @@ As the project is in its early stages, there are no installation or usage instru
 
 ## Contact
 
-[Email](mailto:akzestia@gmail.com)
+If you have any questions, feel free to ask via email - [Email](mailto:akzestia@gmail.com)
+> Note: Please add a topic to your email, otherwise your message may be filtered as spam.
