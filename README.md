@@ -25,15 +25,15 @@ This project is in its initial development phase. We are actively working on the
 - **Language**: Rust
 - **Async Runtime**: Tokio
 
-## Getting Started
+### Getting Started
 
 As the project is in its early stages, there are no installation or usage instructions available yet. Stay tuned for updates!
 
-## License
+### License
 
 [MIT]
 
-## Contact
+### Contact
 
 If you have any questions, feel free to ask via email - [Email](mailto:akzestia@gmail.com)
 > Note: Please add a topic to your email, otherwise your message may be filtered as spam.
